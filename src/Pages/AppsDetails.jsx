@@ -99,13 +99,19 @@ const AppsDetails = () => {
             </div>
           </div>
 
-          <div className="card-actions  ">
+          <div className="card-actions flex gap-3 ">
             <button
               onClick={handleAddToInstallNow}
               className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-0"
             >
               Install Now ({size} MB)
             </button>
+
+            <Link to={"/apps"}>
+              <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-0">
+                Back
+              </button>
+            </Link>
           </div>
         </div>
       </div>

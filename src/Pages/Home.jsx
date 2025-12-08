@@ -6,11 +6,17 @@ import play from "../assets/playstore.png";
 import appstore from "../assets/appstore.png";
 import hero from "../assets/hero.png";
 import useApps from "../Hooks/useApps";
+import logo from "../assets/logo.png";
 
 const Home = () => {
   // const apps = useLoaderData();
   const { apps, loading, error } = useApps();
-  if (loading) return <p>Loading...</p>;
+  if (loading)
+    return (
+      <div className="flex justify-center items-center h-[400px] bg-gray-100">
+        <img className="w-60 h-60 animate-spin" src={logo} alt="" />
+      </div>
+    );
   if (error) return <p>{error}</p>;
   const featureApps = apps.slice(0, 8);
   return (
