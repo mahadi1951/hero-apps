@@ -1,469 +1,507 @@
-[
-  {
-    "id": 1,
-    "image": "https://www.mobiledokan.com/media/vivo-x200-natural-green-aurora-green-official-image.webp",
-    "title": "Smartphone X200",
-    "companyName": "TechNova",
-    "description": "The Smartphone X200 delivers seamless performance with its ultra-fast processor, advanced camera system, and stunning display. Perfect for gaming, photography, and daily multitasking.",
-    "size": 128,
-    "reviews": 1200,
-    "ratingAvg": 4.6,
-    "downloads": "2.5M",
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 560 }
-    ]
-  },
-  {
-    "id": 2,
-    "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/zenbook-pro-14-duo-oled-ux8402ze/zenbook-pro-14-duo-oled-ux8402ze-01-500x500.webp",
-    "title": "UltraBook Pro 14",
-    "companyName": "CyberTech",
-    "description": "The UltraBook Pro 14 features a lightweight design, vibrant display, and next-gen performance. Ideal for creators, students, and professionals seeking power on the go.",
-    "size": 512,
-    "reviews": 900,
-    "ratingAvg": 4.7,
-    "downloads": "1.8M",
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 410 }
-    ]
-  },
-  {
-    "id": 3,
-    "image": "https://www.startech.com.bd/image/cache/catalog/earphone/oneplus/bullets-wireless-z3/bullets-wireless-z3-mambo-midnight-01-500x500.webp",
-    "title": "Noise Cancelling HP Z3",
-    "companyName": "SoundMax",
-    "description": "Experience immersive audio with industry-leading noise cancellation, deep bass, and long-lasting comfort. Great for travel, work, and entertainment.",
-    "size": 350,
-    "reviews": 1500,
-    "ratingAvg": 4.8,
-    "downloads": "3.2M",
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 110 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 825 }
-    ]
-  },
-  {
-    "id": 4,
-    "image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/x/t/xtra-offer-10-7-25.jpg",
-    "title": "SmartWatch Active S5",
-    "companyName": "FitGear",
-    "description": "A premium smartwatch offering advanced fitness tracking, heart-rate monitoring, sleep analysis, and a vibrant AMOLED display for all-day visibility.",
-    "size": 64,
-    "reviews": 780,
-    "ratingAvg": 4.5,
-    "downloads": "1.4M",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 300 }
-    ]
-  },
-  {
-    "id": 5,
-    "image": "https://www.startech.com.bd/image/cache/catalog/television/sony/kd-50x75/kd-50x75-02-500x500.jpg",
-    "title": "4K Ultra HD Smart TV 55”",
-    "companyName": "VisionTech",
-    "description": "A stunning 4K HDR display with vibrant colors, smooth motion, and built-in smart apps. Perfect for home entertainment and immersive movie nights.",
-    "size": 55,
-    "reviews": 2000,
-    "ratingAvg": 4.7,
-    "downloads": "4M",
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1000 }
-    ]
-  },
-  {
-    "id": 6,
-    "image": "https://www.startech.com.bd/image/cache/catalog/dslr-camera/sony/%20alpha-a7-m3/a7-mark-3-500x500.jpg",
-    "title": "Mirrorless Camera A7",
-    "companyName": "PixelPro",
-    "description": "Capture professional-grade photos with the A7 mirrorless camera featuring high dynamic range, fast autofocus, and stunning low-light performance.",
-    "size": 24,
-    "reviews": 1100,
-    "ratingAvg": 4.8,
-    "downloads": "1.9M",
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 590 }
-    ]
-  },
-  {
-    "id": 7,
-    "image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/m/t/mt-38-11-6-25-1.jpg",
-    "title": "Convection Microwave Oven ",
-    "companyName": "HomeChef",
-    "description": "A versatile convection microwave with smart heating, grill functions, and energy-efficient cooking for all-in-one kitchen convenience.",
-    "size": 30,
-    "reviews": 640,
-    "ratingAvg": 4.4,
-    "downloads": "900K",
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 200 },
-      { "name": "5 star", "count": 220 }
-    ]
-  },
-  {
-    "id": 8,
-    "image": "https://p2-ofp.static.pub//fes/cms/2024/05/24/doc9jf4r5flvovqubuove46b9e34k3966573.png?width=400&height=400",
-    "title": "Tablet Pro 11",
-    "companyName": "NovaTab",
-    "description": "A sleek and powerful tablet with high-resolution display, multitasking support, and smooth stylus performance for work and creativity.",
-    "size": 256,
-    "reviews": 500,
-    "ratingAvg": 4.6,
-    "downloads": "1.1M",
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 170 },
-      { "name": "5 star", "count": 175 }
-    ]
-  },
+ [
+    {
+      "id": 1,
+      "image": "https://play-lh.googleusercontent.com/WEeqanqU_MGMtyt1dm_kG-Ftka-Xo-P7ETIXZcFsNN7JOTzqm3SL70gtUXgtk2IqkQ=w240-h480-rw",
+      "title": "PhotoMaster Editor",
+      "companyName": "PixelSoft",
+      "description": "Advanced photo editing tools with AI-powered enhancements.",
+      "size": 45,
+      "reviews": 1200,
+      "ratingAvg": 4.6,
+      "downloads": "5M",
+      "ratings": [
+        { "name": "1 star", "count": 60 },
+        { "name": "2 star", "count": 80 },
+        { "name": "3 star", "count": 140 },
+        { "name": "4 star", "count": 350 },
+        { "name": "5 star", "count": 570 }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://s.cafebazaar.ir/images/icons/com.smartcleaner.pro.free-371ba6de-c965-4c48-b80e-0e847f5db4c6_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "title": "SmartCleaner Pro",
+      "companyName": "CleanTech",
+      "description": "Boost phone speed, clean junk, and improve battery life.",
+      "size": 18,
+      "reviews": 680,
+      "ratingAvg": 4.2,
+      "downloads": "2M",
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 60 },
+        { "name": "3 star", "count": 120 },
+        { "name": "4 star", "count": 210 },
+        { "name": "5 star", "count": 250 }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://play-lh.googleusercontent.com/zHqPgCW3iBfuKfPiClFR3il472GczgFlx3VIiz-8WFSxOVVG_Vw2IAV6knEKZkYabxfZ",
+      "title": "Daily Fitness Coach",
+      "companyName": "FitLife",
+      "description": "Personal workout plans, calorie tracking and health monitoring.",
+      "size": 33,
+      "reviews": 900,
+      "ratingAvg": 4.7,
+      "downloads": "3M",
+      "ratings": [
+        { "name": "1 star", "count": 30 },
+        { "name": "2 star", "count": 55 },
+        { "name": "3 star", "count": 120 },
+        { "name": "4 star", "count": 260 },
+        { "name": "5 star", "count": 435 }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9WP68dD2EyvuYu6ZPO_wtiGzHDxyT0v4KA&s",
+      "title": "SafeVault Password Manager",
+      "companyName": "SecureWare",
+      "description": "Store and protect your passwords with military-grade security.",
+      "size": 22,
+      "reviews": 540,
+      "ratingAvg": 4.5,
+      "downloads": "1M",
+      "ratings": [
+        { "name": "1 star", "count": 35 },
+        { "name": "2 star", "count": 50 },
+        { "name": "3 star", "count": 100 },
+        { "name": "4 star", "count": 170 },
+        { "name": "5 star", "count": 185 }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://media.licdn.com/dms/image/v2/C560BAQH88lWqNKKQBg/company-logo_200_200/company-logo_200_200/0/1636473650703/learn_pro_logo?e=2147483647&v=beta&t=dxTRH-S9jW8n4H018efWSBuDpbByjwqnVQuLiDSUVq4",
+      "title": "LearnLang Pro",
+      "companyName": "EduGlobal",
+      "description": "Learn 30+ languages with AI-powered interactive lessons.",
+      "size": 55,
+      "reviews": 3200,
+      "ratingAvg": 4.8,
+      "downloads": "10M",
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 75 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 700 },
+        { "name": "5 star", "count": 2175 }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://gray-kwch-prod.gtv-cdn.com/resizer/v2/2N2MY7C7VVENHBX7RKYTLHNSTI.jpg?auth=76f98e836c6eda1ccbfca077655652c44fc910780e9ea6fe334b4fca01d0db9e&width=800&height=450&smart=true",
+      "title": "WeatherFocus",
+      "companyName": "SkyTech",
+      "description": "Real-time weather forecasts with radar and severe-weather alerts.",
+      "size": 25,
+      "reviews": 960,
+      "ratingAvg": 4.3,
+      "downloads": "4M",
+      "ratings": [
+        { "name": "1 star", "count": 45 },
+        { "name": "2 star", "count": 65 },
+        { "name": "3 star", "count": 160 },
+        { "name": "4 star", "count": 290 },
+        { "name": "5 star", "count": 400 }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://play-lh.googleusercontent.com/WjveJVEkQnuKU2HqjtC_6y-DTUiCGiUkGO4-pDnkyLccZewpGk-0dS-OtzgCIgBtLw=w526-h296-rw",
+      "title": "BudgetTracker",
+      "companyName": "MoneyFlow",
+      "description": "Track your expenses, savings and financial goals easily.",
+      "size": 19,
+      "reviews": 410,
+      "ratingAvg": 4.2,
+      "downloads": "800K",
+      "ratings": [
+        { "name": "1 star", "count": 25 },
+        { "name": "2 star", "count": 44 },
+        { "name": "3 star", "count": 90 },
+        { "name": "4 star", "count": 140 },
+        { "name": "5 star", "count": 111 }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://play-lh.googleusercontent.com/QUzwo-HbZUbxSQamvXwARzGmgpGhXNxgPMczZbmZRvpG1TREpjHXFPFhOUeEB0WDO0o=w240-h480-rw",
+      "title": "MusicBox Pro",
+      "companyName": "StreamWave",
+      "description": "Stream millions of songs with personalized recommendations.",
+      "size": 60,
+      "reviews": 5000,
+      "ratingAvg": 4.7,
+      "downloads": "20M",
+      "ratings": [
+        { "name": "1 star", "count": 100 },
+        { "name": "2 star", "count": 160 },
+        { "name": "3 star", "count": 400 },
+        { "name": "4 star", "count": 1200 },
+        { "name": "5 star", "count": 3140 }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJujYVanAfbNFVDuX4js__Mq2G778D4BMKhw&s",
+      "title": "VideoCraft Studio",
+      "companyName": "MediaPro",
+      "description": "Edit videos with templates, transitions and fast exporting.",
+      "size": 70,
+      "reviews": 2600,
+      "ratingAvg": 4.6,
+      "downloads": "9M",
+      "ratings": [
+        { "name": "1 star", "count": 90 },
+        { "name": "2 star", "count": 140 },
+        { "name": "3 star", "count": 300 },
+        { "name": "4 star", "count": 850 },
+        { "name": "5 star", "count": 1220 }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "https://i.ytimg.com/vi/JN2LpjJPC08/maxresdefault.jpg",
+      "title": "TravelMate",
+      "companyName": "GoGlobal",
+      "description": "Find cheap flights, hotels and personalized travel guides.",
+      "size": 39,
+      "reviews": 1700,
+      "ratingAvg": 4.4,
+      "downloads": "6M",
+      "ratings": [
+        { "name": "1 star", "count": 80 },
+        { "name": "2 star", "count": 120 },
+        { "name": "3 star", "count": 280 },
+        { "name": "4 star", "count": 520 },
+        { "name": "5 star", "count": 700 }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://play-lh.googleusercontent.com/6qA1eTyPF3DyF-Hm4NVAqNW8DoT6pBZ9pdh7Z0x5nzaPSW3HOOS5NYl4yfPwWlJXMRuS",
+      "title": "QuickNotes",
+      "companyName": "SoftPad",
+      "description": "Take notes, scan documents, and sync across all devices.",
+      "size": 12,
+      "reviews": 890,
+      "ratingAvg": 4.5,
+      "downloads": "3M",
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 55 },
+        { "name": "3 star", "count": 110 },
+        { "name": "4 star", "count": 260 },
+        { "name": "5 star", "count": 425 }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://shoplineimg.com/6177a34c454eb0001548ef42/61b70de04a4d610017451e1f/800x.jpeg?",
+      "title": "RideHero",
+      "companyName": "MoveTech",
+      "description": "Book rides instantly with real-time driver tracking.",
+      "size": 41,
+      "reviews": 2500,
+      "ratingAvg": 4.3,
+      "downloads": "15M",
+      "ratings": [
+        { "name": "1 star", "count": 160 },
+        { "name": "2 star", "count": 180 },
+        { "name": "3 star", "count": 300 },
+        { "name": "4 star", "count": 850 },
+        { "name": "5 star", "count": 1010 }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://play-lh.googleusercontent.com/pta6_htPZffFjO9cvFGmwPsLTEPY4nkOzsOubmusuZhLhUstu2ouaFb-o-gH33hmLQ",
+      "title": "FoodExpress",
+      "companyName": "DeliFast",
+      "description": "Order food from top restaurants with fast delivery.",
+      "size": 52,
+      "reviews": 4800,
+      "ratingAvg": 4.2,
+      "downloads": "18M",
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 340 },
+        { "name": "3 star", "count": 600 },
+        { "name": "4 star", "count": 1200 },
+        { "name": "5 star", "count": 2360 }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://play-lh.googleusercontent.com/DgULTlG17t3v_05hXAaReO09Sx5GxP5oi2m4l5xq9uIQ2nnk9U8lrdek9tOjm_BfK6pA",
+      "title": "ChatWave",
+      "companyName": "Connectify",
+      "description": "Fast, secure messaging with cloud backups and voice calls.",
+      "size": 28,
+      "reviews": 7200,
+      "ratingAvg": 4.5,
+      "downloads": "35M",
+      "ratings": [
+        { "name": "1 star", "count": 400 },
+        { "name": "2 star", "count": 500 },
+        { "name": "3 star", "count": 900 },
+        { "name": "4 star", "count": 1700 },
+        { "name": "5 star", "count": 3700 }
+      ]
+    },
+    {
+      "id": 15,
+      "image": "https://mind-ease.eu/wp-content/uploads/mindease-logo-01-256x256-1.png",
+      "title": "MindEase",
+      "companyName": "RelaxApps",
+      "description": "Meditation, breathing exercises and calming background music.",
+      "size": 30,
+      "reviews": 1500,
+      "ratingAvg": 4.7,
+      "downloads": "8M",
+      "ratings": [
+        { "name": "1 star", "count": 60 },
+        { "name": "2 star", "count": 80 },
+        { "name": "3 star", "count": 150 },
+        { "name": "4 star", "count": 420 },
+        { "name": "5 star", "count": 790 }
+      ]
+    },
+    {
+      "id": 16,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL39Va3ClodctPID6dEzjpPMXjX5MUzN473Q&s",
+      "title": "GameZone",
+      "companyName": "PlayHub",
+      "description": "Discover trending mobile games with instant download links.",
+      "size": 48,
+      "reviews": 3200,
+      "ratingAvg": 4.4,
+      "downloads": "12M",
+      "ratings": [
+        { "name": "1 star", "count": 180 },
+        { "name": "2 star", "count": 220 },
+        { "name": "3 star", "count": 440 },
+        { "name": "4 star", "count": 1000 },
+        { "name": "5 star", "count": 1360 }
+      ]
+    },
+    {
+      "id": 17,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDU2ACBl6RlNPivEsbjnvNExjqyneTBTdg_w&s",
+      "title": "ScanDoc Pro",
+      "companyName": "PaperLite",
+      "description": "Scan documents, convert to PDF and share instantly.",
+      "size": 16,
+      "reviews": 950,
+      "ratingAvg": 4.6,
+      "downloads": "2M",
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 50 },
+        { "name": "3 star", "count": 100 },
+        { "name": "4 star", "count": 290 },
+        { "name": "5 star", "count": 470 }
+      ]
+    },
+    {
+      "id": 18,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcUB4f9K9o7YvBviaTfl9NUuvuBlTVIhbdVA&s",
+      "title": "Inverter AC TurboCool",
+      "companyName": "AirSmart",
+      "description": "A powerful inverter AC that cools faster, saves energy, and provides stable temperature control even in extreme heat.",
+      "size": 1.5,
+      "reviews": 850,
+      "ratingAvg": 4.4,
+      "downloads": "1M",
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 60 },
+        { "name": "3 star", "count": 150 },
+        { "name": "4 star", "count": 260 },
+        { "name": "5 star", "count": 330 }
+      ]
+    },
+    {
+      "id": 19,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8vl0Q2iFSDe2MZKqwhhp7YGyzzfH3DZhjA&s",
+      "title": "CarRental 24/7",
+      "companyName": "DriveNow",
+      "description": "Rent cars instantly with insurance and doorstep delivery.",
+      "size": 43,
+      "reviews": 1400,
+      "ratingAvg": 4.3,
+      "downloads": "7M",
+      "ratings": [
+        { "name": "1 star", "count": 70 },
+        { "name": "2 star", "count": 90 },
+        { "name": "3 star", "count": 180 },
+        { "name": "4 star", "count": 420 },
+        { "name": "5 star", "count": 640 }
+      ]
+    },
+    {
+      "id": 20,
+      "image": "https://media.licdn.com/dms/image/v2/C560BAQGSnR4_E41BSA/company-logo_200_200/company-logo_200_200/0/1647032555771/shopherodashboard_logo?e=2147483647&v=beta&t=vkF085AJSN0TpVh2CXtVd23lU6FX9yVGrQ120Us2YJU",
+      "title": "ShopHero",
+      "companyName": "MarketSoft",
+      "description": "Buy everything you need with fast delivery and best deals.",
+      "size": 55,
+      "reviews": 5500,
+      "ratingAvg": 4.6,
+      "downloads": "40M",
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 420 },
+        { "name": "3 star", "count": 850 },
+        { "name": "4 star", "count": 1600 },
+        { "name": "5 star", "count": 2330 }
+      ]
+    },
+    {
+      "id": 21,
+      "image": "https://www.studyboost.com/images/sbBGLogo.png",
+      "title": "StudyBoost",
+      "companyName": "EduZone",
+      "description": "AI-based learning system for students with quizzes and mock tests.",
+      "size": 47,
+      "reviews": 2900,
+      "ratingAvg": 4.5,
+      "downloads": "9M",
+      "ratings": [
+        { "name": "1 star", "count": 140 },
+        { "name": "2 star", "count": 170 },
+        { "name": "3 star", "count": 330 },
+        { "name": "4 star", "count": 900 },
+        { "name": "5 star", "count": 1360 }
+      ]
+    },
+    {
+      "id": 22,
+      "image": "https://cdn.notegpt.io/notegpt/static/tario_image/ai-voice-translator/Why%20AI%20Voice%20Translator%20is%20recommended.png",
+      "title": "VoiceTranslator",
+      "companyName": "LinguaTech",
+      "description": "Instant voice translation between 50+ languages.",
+      "size": 29,
+      "reviews": 1600,
+      "ratingAvg": 4.4,
+      "downloads": "5M",
+      "ratings": [
+        { "name": "1 star", "count": 80 },
+        { "name": "2 star", "count": 120 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 510 },
+        { "name": "5 star", "count": 690 }
+      ]
+    },
+    {
+      "id": 23,
+      "image": "https://yt3.googleusercontent.com/HZ0DSCAPKH3JfGxTQg_3sB4FYtMZKaddAkWwFlVVrzdAq0yWf_dTzNzXhgiJECO01jDCfN2ibQ=s900-c-k-c0x00ffffff-no-rj",
+      "title": "NewsHub",
+      "companyName": "MediaWorld",
+      "description": "Stay updated on global news with personalized alerts.",
+      "size": 32,
+      "reviews": 4100,
+      "ratingAvg": 4.2,
+      "downloads": "12M",
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 330 },
+        { "name": "3 star", "count": 600 },
+        { "name": "4 star", "count": 1400 },
+        { "name": "5 star", "count": 1470 }
+      ]
+    },
+    {
+      "id": 24,
+      "image": "https://d.techtimes.com/en/full/417884/cryptowatch.png?w=1600&h=1200&q=88&f=cf56ae4e4eb28930afa277480daa1332",
+      "title": "CryptoWatch",
+      "companyName": "CoinVision",
+      "description": "Track crypto prices, charts and market insights in real time.",
+      "size": 34,
+      "reviews": 2300,
+      "ratingAvg": 4.3,
+      "downloads": "6M",
+      "ratings": [
+        { "name": "1 star", "count": 120 },
+        { "name": "2 star", "count": 180 },
+        { "name": "3 star", "count": 260 },
+        { "name": "4 star", "count": 820 },
+        { "name": "5 star", "count": 920 }
+      ]
+    },
+    {
+      "id": 25,
+      "image": "https://play-lh.googleusercontent.com/XXYezF2qeRBNCMS5Rcy_1qZ-8WHk4YImWfoKjB97fWLE1A55g00u-TvFpcxy6Of0_L1OImaqlAcdqrjy0kxj=w240-h480-rw",
+      "title": "HealthTrack",
+      "companyName": "WellnessX",
+      "description": "Track steps, heart rate and daily fitness goals easily.",
+      "size": 27,
+      "reviews": 1300,
+      "ratingAvg": 4.4,
+      "downloads": "4M",
+      "ratings": [
+        { "name": "1 star", "count": 90 },
+        { "name": "2 star", "count": 110 },
+        { "name": "3 star", "count": 200 },
+        { "name": "4 star", "count": 420 },
+        { "name": "5 star", "count": 480 }
+      ]
+    },
+    {
+      "id": 26,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECWZKwFFT18UuTgVt2SG7o-i849xj-R77YQ&s",
+      "title": "GalleryPlus",
+      "companyName": "PicMax",
+      "description": "Smart photo organizer with cloud backup support.",
+      "size": 38,
+      "reviews": 900,
+      "ratingAvg": 4.3,
+      "downloads": "2M",
+      "ratings": [
+        { "name": "1 star", "count": 50 },
+        { "name": "2 star", "count": 80 },
+        { "name": "3 star", "count": 120 },
+        { "name": "4 star", "count": 300 },
+        { "name": "5 star", "count": 350 }
+      ]
+    },
+    {
+      "id": 27,
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ef/a3/beefa3cb-4821-1b5f-3045-298d86e099c7/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
+      "title": "QR Scanner Pro",
+      "companyName": "ScanWorld",
+      "description": "Fast QR and barcode scanning with history tracking.",
+      "size": 14,
+      "reviews": 1700,
+      "ratingAvg": 4.6,
+      "downloads": "3M",
+      "ratings": [
+        { "name": "1 star", "count": 40 },
+        { "name": "2 star", "count": 60 },
+        { "name": "3 star", "count": 140 },
+        { "name": "4 star", "count": 550 },
+        { "name": "5 star", "count": 910 }
+      ]
+    },
+    {
+      "id": 28,
+      "image": "https://thumbs.dreamstime.com/b/golden-map-pointer-low-poly-unfolded-mountains-rivers-green-landscapes-location-finder-travel-concept-416472479.jpg",
+      "title": "MapFinder",
+      "companyName": "GeoApps",
+      "description": "Offline maps, GPS navigation and route planning.",
+      "size": 44,
+      "reviews": 1900,
+      "ratingAvg": 4.4,
+      "downloads": "7M",
+      "ratings": [
+        { "name": "1 star", "count": 100 },
+        { "name": "2 star", "count": 150 },
+        { "name": "3 star", "count": 300 },
+        { "name": "4 star", "count": 650 },
+        { "name": "5 star", "count": 700 }
+      ]
+    }
+  ]
 
-  {
-    "id": 9,
-    "image": "https://m.media-amazon.com/images/I/71sb3zHHnEL._AC_SL1500_.jpg",
-    "title": "Mechanical Keyboard K900",
-    "companyName": "KeyMaster",
-    "description": "A high-precision mechanical keyboard with RGB lighting, tactile switches, and durable build quality for gamers and programmers.",
-    "size": 1100,
-    "reviews": 850,
-    "ratingAvg": 4.7,
-    "downloads": "1.6M",
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 45 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 365 }
-    ]
-  },
-
-  {
-    "id": 10,
-    "image": "https://www.skechers.com.my/cdn/shop/files/221000_NVMT_1200x1200.jpg?v=1756916879",
-    "title": "Running Shoes MaxRun",
-    "companyName": "FitStep",
-    "description": "Designed for comfort and durability, MaxRun shoes offer excellent cushioning and traction for runners of all experience levels.",
-    "size": 42,
-    "reviews": 600,
-    "ratingAvg": 4.3,
-    "downloads": "700K",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 200 },
-      { "name": "5 star", "count": 140 }
-    ]
-  },
-
-  {
-    "id": 11,
-    "image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/n/a/naf-2066-11-6-25-1.jpg",
-    "title": "Smart Air Fryer XL",
-    "companyName": "KitchenPro",
-    "description": "Healthy cooking made easy with this smart air fryer, offering oil-free crisping, multiple presets, and rapid hot-air technology.",
-    "size": 5,
-    "reviews": 1100,
-    "ratingAvg": 4.6,
-    "downloads": "1.3M",
-    "ratings": [
-      { "name": "1 star", "count": 35 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 380 },
-      { "name": "5 star", "count": 505 }
-    ]
-  },
-
-  {
-    "id": 12,
-    "image": "https://thepatchee.com/cdn/shop/files/O1CN01Lj4UNy1OIrYLwyC6P__21_212215653631683-0-cib_YIk3xx.jpg?v=1747776961&width=800",
-    "title": "Travel Backpack Explorer",
-    "companyName": "BagWorld",
-    "description": "A durable travel backpack with multiple compartments, waterproof coating, and ergonomic design for long-term comfort.",
-    "size": 35,
-    "reviews": 320,
-    "ratingAvg": 4.2,
-    "downloads": "500K",
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 90 },
-      { "name": "5 star", "count": 65 }
-    ]
-  },
-
-  {
-    "id": 13,
-    "image": "https://www.startech.com.bd/image/cache/catalog/router/asus/ax82u/ax82u-001-500x500.jpg",
-    "title": "WiFi Router AX6000",
-    "companyName": "LinkWave",
-    "description": "A high-speed dual-band WiFi 6 router designed for large homes, gaming, streaming, and uninterrupted connectivity.",
-    "size": 6000,
-    "reviews": 950,
-    "ratingAvg": 4.5,
-    "downloads": "1.2M",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 55 },
-      { "name": "3 star", "count": 110 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 445 }
-    ]
-  },
-
-  {
-    "id": 14,
-    "image": "https://www.startech.com.bd/image/cache/catalog/printer/Canon/ip-2770/ip-2770-1-500x500.jpg",
-    "title": "Wireless InkJet Printer",
-    "companyName": "PrintMax",
-    "description": "A compact wireless printer offering fast printing, vibrant colors, and cost-efficiency for home and office use.",
-    "size": 15,
-    "reviews": 400,
-    "ratingAvg": 4.1,
-    "downloads": "450K",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 100 },
-      { "name": "5 star", "count": 60 }
-    ]
-  },
-
-  {
-    "id": 15,
-    "image": "https://boori.com.au/cdn/shop/files/BK-ERDE2PS_2_a854951a-a1dc-486d-b795-d3340682e655.jpg?v=1756772671&width=1200",
-    "title": "Ergonomic Study Desk",
-    "companyName": "WoodLine",
-    "description": "A strong wooden study desk designed with adjustable height, spacious surface area, and durable finishing.",
-    "size": 120,
-    "reviews": 700,
-    "ratingAvg": 4.4,
-    "downloads": "800K",
-    "ratings": [
-      { "name": "1 star", "count": 35 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 170 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 185 }
-    ]
-  },
-
-  {
-    "id": 16,
-    "image": "https://m.media-amazon.com/images/I/812ObeVargL._UF1000,1000_QL80_.jpg",
-    "title": "Wireless Mouse M500",
-    "companyName": "ClickMate",
-    "description": "A lightweight wireless mouse offering smooth tracking, ergonomic grip, and long battery life for everyday use.",
-    "size": 90,
-    "reviews": 540,
-    "ratingAvg": 4.3,
-    "downloads": "650K",
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 45 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 175 }
-    ]
-  },
-
-  {
-    "id": 17,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdMZjMq0DY1aJMInTuJKk5zeb59tiMU2iZg&s",
-    "title": "Comfort Sofa Royale",
-    "companyName": "HomeLiving",
-    "description": "A luxurious three-seater sofa with high-density foam, soft fabric, and modern design to upgrade any living space.",
-    "size": 180,
-    "reviews": 670,
-    "ratingAvg": 4.5,
-    "downloads": "900K",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 130 },
-      { "name": "4 star", "count": 220 },
-      { "name": "5 star", "count": 210 }
-    ]
-  },
-
-  {
-    "id": 18,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOrl-Xb6MF17iDbaV8bcBmj5qXAgZSrbYVaQ&s",
-    "title": "Inverter AC TurboCool",
-    "companyName": "AirSmart",
-    "description": "A powerful inverter AC that cools faster, saves energy, and provides stable temperature control even in extreme heat.",
-    "size": 1.5,
-    "reviews": 850,
-    "ratingAvg": 4.4,
-    "downloads": "1M",
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 330 }
-    ]
-  },
-
-  {
-    "id": 19,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY30OKqFbte3ix34itPPkegsgnOAiEFvtgsg&s",
-    "title": "Smart Refrigerator FrostFree",
-    "companyName": "CoolTech",
-    "description": "A modern frost-free refrigerator with smart control, rapid cooling, and multiple storage compartments for organized usage.",
-    "size": 350,
-    "reviews": 920,
-    "ratingAvg": 4.6,
-    "downloads": "1.4M",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 390 }
-    ]
-  },
-
-  {
-    "id": 20,
-    "image": "https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1920/v1/rolexcom/model-page/gallery/m226627-0001/m226627-0001_v01.jpg",
-    "title": "Luxury Watch Titanium",
-    "companyName": "RoyalTime",
-    "description": "A premium titanium wristwatch offering precision timing, scratch-resistant display, and timeless design.",
-    "size": 48,
-    "reviews": 500,
-    "ratingAvg": 4.7,
-    "downloads": "1.2M",
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 70 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 230 }
-    ]
-  },
-
-  {
-    "id": 21,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ppvIHj2JDifrJyFSa8D4Js2__-XIxjErFw&s",
-    "title": "Wooden Dresser Premium",
-    "companyName": "OakCraft",
-    "description": "A finely crafted wooden dresser with multiple drawers, elegant finishing, and premium build quality for bedroom storage.",
-    "size": 140,
-    "reviews": 450,
-    "ratingAvg": 4.5,
-    "downloads": "800K",
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 35 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 140 },
-      { "name": "5 star", "count": 125 }
-    ]
-  },
-
-  {
-    "id": 22,
-    "image": "https://acefast.com/wp-content/uploads/2023/11/acefast-m4-pd67w-power-bank-20000mah.jpg",
-    "title": "PowerBank 20000mAh ",
-    "companyName": "ChargePlus",
-    "description": "A high-capacity power bank with fast charging support, dual ports, and intelligent protection for safe performance.",
-    "size": 20000,
-    "reviews": 1300,
-    "ratingAvg": 4.6,
-    "downloads": "2.1M",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 440 },
-      { "name": "5 star", "count": 590 }
-    ]
-  },
-
-  {
-    "id": 23,
-    "image": "https://www.racingdirect.com/resize/Shared/Images/Product/Bell/rs7_pro_sa2020_racing_helmet_1_new.jpg?lr=f&bw=1000&bh=1000",
-    "title": "Racing Helmet Pro",
-    "companyName": "RideSafe",
-    "description": "A lightweight and aerodynamic racing helmet built with reinforced materials, ensuring maximum safety and comfort.",
-    "size": "M",
-    "reviews": 340,
-    "ratingAvg": 4.3,
-    "downloads": "500K",
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 80 },
-      { "name": "5 star", "count": 80 }
-    ]
-  },
-
-  {
-    "id": 24,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQYniOFZKAsjpQT6iNN1XzxrGWxq1Euhj3qw&s",
-    "title": "Premium Coffee Maker",
-    "companyName": "BrewMaster",
-    "description": "A fully automatic coffee maker that delivers rich aroma, customizable brewing, and consistent café-quality results.",
-    "size": 2,
-    "reviews": 780,
-    "ratingAvg": 4.4,
-    "downloads": "900K",
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 230 },
-      { "name": "5 star", "count": 310 }
-    ]
-  },
-
-  {
-    "id": 25,
-    "image": "https://perfectdealz.co.za/wp-content/uploads/2024/06/WIFI-Professional-Aerial-Drone.jpg",
-    "title": "Aerial Drone X10",
-    "companyName": "SkyTech",
-    "description": "An advanced aerial drone featuring 4K video recording, long flight time, intelligent navigation, and obstacle avoidance.",
-    "size": 2,
-    "reviews": 1100,
-    "ratingAvg": 4.7,
-    "downloads": "1.5M",
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 130 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 560 }
-    ]
-  }
-]

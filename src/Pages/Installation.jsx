@@ -5,6 +5,7 @@ import rating from "../assets/icon-ratings.png";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import BarChart from "../Components/BarChart";
+import useApps from "../Hooks/useApps";
 
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
@@ -41,16 +42,23 @@ const Installation = () => {
     }
   };
 
-  const handleUninstall = (id) => {
+  const handleUninstall = (app) => {
     const existingList = JSON.parse(localStorage.getItem("installation"));
-    let updateList = existingList.filter((p) => p.id !== id);
+
+    let updateList = existingList.filter((p) => p.id !== app.id);
+
     setInstallation(updateList);
     localStorage.setItem("installation", JSON.stringify(updateList));
-    toast.success("Item Removed Successfully!", {
-      position: "top-right",
-      theme: "dark",
-    });
+
+    toast.success(
+      `"${app.companyName} : ${app.title}" Uninstalled successfully!"`,
+      {
+        position: "top-right",
+        theme: "dark",
+      }
+    );
   };
+
   return (
     <div className=" bg-[#f5f5f5]">
       <div className="text-center py-4">
@@ -108,7 +116,7 @@ const Installation = () => {
             </div>
 
             <button
-              onClick={() => handleUninstall(p.id)}
+              onClick={() => handleUninstall(p)}
               className="btn text-white bg-[#00d390] mr-3"
             >
               Uninstall
@@ -116,7 +124,7 @@ const Installation = () => {
           </div>
         ))}
       </div>
-      <ToastContainer />
+      <ToastContainer position="top-right" autoClose={1500} />
       <BarChart></BarChart>
       <div className="text-gray-500 max-w-7xl mx-auto gap-4 py-6">
         <h1 className="text-3xl font-bold">Description</h1>

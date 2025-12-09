@@ -33,7 +33,7 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="w-full bg-[#f5f5f5]">
+    <div className="w-full bg-[#f5f5f5] py-3">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our All Applications</h1>
         <p className="text-gray-500 py-3">

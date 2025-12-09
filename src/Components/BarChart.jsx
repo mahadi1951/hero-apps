@@ -11,7 +11,7 @@ const BarChart = () => {
   const maxValue = Math.max(...ratings.map((r) => r.count));
 
   return (
-    <div className="w-full max-w-7xl mx-auto mt-10">
+    <div className="w-full max-w-7xl mx-auto mt-2">
       <h2 className="text-xl font-semibold mb-4">Ratings</h2>
 
       {/* Bars */}

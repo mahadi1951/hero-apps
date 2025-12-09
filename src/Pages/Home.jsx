@@ -35,19 +35,19 @@ const Home = () => {
           Our goal is to turn your ideas into digital experiences that truly
           make an impact.
         </p>
-        <div className="mb-4 flex-1 gap-3">
+        <div className="mb-4 flex-1 gap-10">
           <button
             onClick={() =>
               window.open("https://play.google.com/store/games?hl=en")
             }
-            className="btn "
+            className="btn mr-2"
           >
             <img className="w-8 h-8 " src={play} alt="" />
             <p>Google Play</p>
           </button>
           <button
             onClick={() => window.open("https://www.apple.com/app-store/")}
-            className="btn "
+            className="btn ml-2"
           >
             <img className="w-8 h-8" src={appstore} alt="" />
             <p>App Store</p>
@@ -85,9 +85,12 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="py-2 text-end">
-        <Link className="btn btn-outline " to={"/apps"}>
-          See All Apps
+      <div className="py-2 text-center ml-10">
+        <Link
+          className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+          to={"/apps"}
+        >
+          Show All Apps
         </Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
@@ -95,9 +98,12 @@ const Home = () => {
           <AppsCard key={app} app={app}></AppsCard>
         ))}
       </div>
-      <div className="py-2 text-end">
-        <Link className="btn btn-outline " to={"/apps"}>
-          See All Apps
+      <div className="py-2 text-center ml-10">
+        <Link
+          className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+          to={"/apps"}
+        >
+          Show All Apps
         </Link>
       </div>
     </div>
