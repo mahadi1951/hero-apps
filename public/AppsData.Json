@@ -1,507 +1,506 @@
- [
-    {
-      "id": 1,
-      "image": "https://play-lh.googleusercontent.com/WEeqanqU_MGMtyt1dm_kG-Ftka-Xo-P7ETIXZcFsNN7JOTzqm3SL70gtUXgtk2IqkQ=w240-h480-rw",
-      "title": "PhotoMaster Editor",
-      "companyName": "PixelSoft",
-      "description": "Advanced photo editing tools with AI-powered enhancements.",
-      "size": 45,
-      "reviews": 1200,
-      "ratingAvg": 4.6,
-      "downloads": "5M",
-      "ratings": [
-        { "name": "1 star", "count": 60 },
-        { "name": "2 star", "count": 80 },
-        { "name": "3 star", "count": 140 },
-        { "name": "4 star", "count": 350 },
-        { "name": "5 star", "count": 570 }
-      ]
-    },
-    {
-      "id": 2,
-      "image": "https://s.cafebazaar.ir/images/icons/com.smartcleaner.pro.free-371ba6de-c965-4c48-b80e-0e847f5db4c6_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
-      "title": "SmartCleaner Pro",
-      "companyName": "CleanTech",
-      "description": "Boost phone speed, clean junk, and improve battery life.",
-      "size": 18,
-      "reviews": 680,
-      "ratingAvg": 4.2,
-      "downloads": "2M",
-      "ratings": [
-        { "name": "1 star", "count": 40 },
-        { "name": "2 star", "count": 60 },
-        { "name": "3 star", "count": 120 },
-        { "name": "4 star", "count": 210 },
-        { "name": "5 star", "count": 250 }
-      ]
-    },
-    {
-      "id": 3,
-      "image": "https://play-lh.googleusercontent.com/zHqPgCW3iBfuKfPiClFR3il472GczgFlx3VIiz-8WFSxOVVG_Vw2IAV6knEKZkYabxfZ",
-      "title": "Daily Fitness Coach",
-      "companyName": "FitLife",
-      "description": "Personal workout plans, calorie tracking and health monitoring.",
-      "size": 33,
-      "reviews": 900,
-      "ratingAvg": 4.7,
-      "downloads": "3M",
-      "ratings": [
-        { "name": "1 star", "count": 30 },
-        { "name": "2 star", "count": 55 },
-        { "name": "3 star", "count": 120 },
-        { "name": "4 star", "count": 260 },
-        { "name": "5 star", "count": 435 }
-      ]
-    },
-    {
-      "id": 4,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9WP68dD2EyvuYu6ZPO_wtiGzHDxyT0v4KA&s",
-      "title": "SafeVault Password Manager",
-      "companyName": "SecureWare",
-      "description": "Store and protect your passwords with military-grade security.",
-      "size": 22,
-      "reviews": 540,
-      "ratingAvg": 4.5,
-      "downloads": "1M",
-      "ratings": [
-        { "name": "1 star", "count": 35 },
-        { "name": "2 star", "count": 50 },
-        { "name": "3 star", "count": 100 },
-        { "name": "4 star", "count": 170 },
-        { "name": "5 star", "count": 185 }
-      ]
-    },
-    {
-      "id": 5,
-      "image": "https://media.licdn.com/dms/image/v2/C560BAQH88lWqNKKQBg/company-logo_200_200/company-logo_200_200/0/1636473650703/learn_pro_logo?e=2147483647&v=beta&t=dxTRH-S9jW8n4H018efWSBuDpbByjwqnVQuLiDSUVq4",
-      "title": "LearnLang Pro",
-      "companyName": "EduGlobal",
-      "description": "Learn 30+ languages with AI-powered interactive lessons.",
-      "size": 55,
-      "reviews": 3200,
-      "ratingAvg": 4.8,
-      "downloads": "10M",
-      "ratings": [
-        { "name": "1 star", "count": 50 },
-        { "name": "2 star", "count": 75 },
-        { "name": "3 star", "count": 200 },
-        { "name": "4 star", "count": 700 },
-        { "name": "5 star", "count": 2175 }
-      ]
-    },
-    {
-      "id": 6,
-      "image": "https://gray-kwch-prod.gtv-cdn.com/resizer/v2/2N2MY7C7VVENHBX7RKYTLHNSTI.jpg?auth=76f98e836c6eda1ccbfca077655652c44fc910780e9ea6fe334b4fca01d0db9e&width=800&height=450&smart=true",
-      "title": "WeatherFocus",
-      "companyName": "SkyTech",
-      "description": "Real-time weather forecasts with radar and severe-weather alerts.",
-      "size": 25,
-      "reviews": 960,
-      "ratingAvg": 4.3,
-      "downloads": "4M",
-      "ratings": [
-        { "name": "1 star", "count": 45 },
-        { "name": "2 star", "count": 65 },
-        { "name": "3 star", "count": 160 },
-        { "name": "4 star", "count": 290 },
-        { "name": "5 star", "count": 400 }
-      ]
-    },
-    {
-      "id": 7,
-      "image": "https://play-lh.googleusercontent.com/WjveJVEkQnuKU2HqjtC_6y-DTUiCGiUkGO4-pDnkyLccZewpGk-0dS-OtzgCIgBtLw=w526-h296-rw",
-      "title": "BudgetTracker",
-      "companyName": "MoneyFlow",
-      "description": "Track your expenses, savings and financial goals easily.",
-      "size": 19,
-      "reviews": 410,
-      "ratingAvg": 4.2,
-      "downloads": "800K",
-      "ratings": [
-        { "name": "1 star", "count": 25 },
-        { "name": "2 star", "count": 44 },
-        { "name": "3 star", "count": 90 },
-        { "name": "4 star", "count": 140 },
-        { "name": "5 star", "count": 111 }
-      ]
-    },
-    {
-      "id": 8,
-      "image": "https://play-lh.googleusercontent.com/QUzwo-HbZUbxSQamvXwARzGmgpGhXNxgPMczZbmZRvpG1TREpjHXFPFhOUeEB0WDO0o=w240-h480-rw",
-      "title": "MusicBox Pro",
-      "companyName": "StreamWave",
-      "description": "Stream millions of songs with personalized recommendations.",
-      "size": 60,
-      "reviews": 5000,
-      "ratingAvg": 4.7,
-      "downloads": "20M",
-      "ratings": [
-        { "name": "1 star", "count": 100 },
-        { "name": "2 star", "count": 160 },
-        { "name": "3 star", "count": 400 },
-        { "name": "4 star", "count": 1200 },
-        { "name": "5 star", "count": 3140 }
-      ]
-    },
-    {
-      "id": 9,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJujYVanAfbNFVDuX4js__Mq2G778D4BMKhw&s",
-      "title": "VideoCraft Studio",
-      "companyName": "MediaPro",
-      "description": "Edit videos with templates, transitions and fast exporting.",
-      "size": 70,
-      "reviews": 2600,
-      "ratingAvg": 4.6,
-      "downloads": "9M",
-      "ratings": [
-        { "name": "1 star", "count": 90 },
-        { "name": "2 star", "count": 140 },
-        { "name": "3 star", "count": 300 },
-        { "name": "4 star", "count": 850 },
-        { "name": "5 star", "count": 1220 }
-      ]
-    },
-    {
-      "id": 10,
-      "image": "https://i.ytimg.com/vi/JN2LpjJPC08/maxresdefault.jpg",
-      "title": "TravelMate",
-      "companyName": "GoGlobal",
-      "description": "Find cheap flights, hotels and personalized travel guides.",
-      "size": 39,
-      "reviews": 1700,
-      "ratingAvg": 4.4,
-      "downloads": "6M",
-      "ratings": [
-        { "name": "1 star", "count": 80 },
-        { "name": "2 star", "count": 120 },
-        { "name": "3 star", "count": 280 },
-        { "name": "4 star", "count": 520 },
-        { "name": "5 star", "count": 700 }
-      ]
-    },
-    {
-      "id": 11,
-      "image": "https://play-lh.googleusercontent.com/6qA1eTyPF3DyF-Hm4NVAqNW8DoT6pBZ9pdh7Z0x5nzaPSW3HOOS5NYl4yfPwWlJXMRuS",
-      "title": "QuickNotes",
-      "companyName": "SoftPad",
-      "description": "Take notes, scan documents, and sync across all devices.",
-      "size": 12,
-      "reviews": 890,
-      "ratingAvg": 4.5,
-      "downloads": "3M",
-      "ratings": [
-        { "name": "1 star", "count": 40 },
-        { "name": "2 star", "count": 55 },
-        { "name": "3 star", "count": 110 },
-        { "name": "4 star", "count": 260 },
-        { "name": "5 star", "count": 425 }
-      ]
-    },
-    {
-      "id": 12,
-      "image": "https://shoplineimg.com/6177a34c454eb0001548ef42/61b70de04a4d610017451e1f/800x.jpeg?",
-      "title": "RideHero",
-      "companyName": "MoveTech",
-      "description": "Book rides instantly with real-time driver tracking.",
-      "size": 41,
-      "reviews": 2500,
-      "ratingAvg": 4.3,
-      "downloads": "15M",
-      "ratings": [
-        { "name": "1 star", "count": 160 },
-        { "name": "2 star", "count": 180 },
-        { "name": "3 star", "count": 300 },
-        { "name": "4 star", "count": 850 },
-        { "name": "5 star", "count": 1010 }
-      ]
-    },
-    {
-      "id": 13,
-      "image": "https://play-lh.googleusercontent.com/pta6_htPZffFjO9cvFGmwPsLTEPY4nkOzsOubmusuZhLhUstu2ouaFb-o-gH33hmLQ",
-      "title": "FoodExpress",
-      "companyName": "DeliFast",
-      "description": "Order food from top restaurants with fast delivery.",
-      "size": 52,
-      "reviews": 4800,
-      "ratingAvg": 4.2,
-      "downloads": "18M",
-      "ratings": [
-        { "name": "1 star", "count": 300 },
-        { "name": "2 star", "count": 340 },
-        { "name": "3 star", "count": 600 },
-        { "name": "4 star", "count": 1200 },
-        { "name": "5 star", "count": 2360 }
-      ]
-    },
-    {
-      "id": 14,
-      "image": "https://play-lh.googleusercontent.com/DgULTlG17t3v_05hXAaReO09Sx5GxP5oi2m4l5xq9uIQ2nnk9U8lrdek9tOjm_BfK6pA",
-      "title": "ChatWave",
-      "companyName": "Connectify",
-      "description": "Fast, secure messaging with cloud backups and voice calls.",
-      "size": 28,
-      "reviews": 7200,
-      "ratingAvg": 4.5,
-      "downloads": "35M",
-      "ratings": [
-        { "name": "1 star", "count": 400 },
-        { "name": "2 star", "count": 500 },
-        { "name": "3 star", "count": 900 },
-        { "name": "4 star", "count": 1700 },
-        { "name": "5 star", "count": 3700 }
-      ]
-    },
-    {
-      "id": 15,
-      "image": "https://mind-ease.eu/wp-content/uploads/mindease-logo-01-256x256-1.png",
-      "title": "MindEase",
-      "companyName": "RelaxApps",
-      "description": "Meditation, breathing exercises and calming background music.",
-      "size": 30,
-      "reviews": 1500,
-      "ratingAvg": 4.7,
-      "downloads": "8M",
-      "ratings": [
-        { "name": "1 star", "count": 60 },
-        { "name": "2 star", "count": 80 },
-        { "name": "3 star", "count": 150 },
-        { "name": "4 star", "count": 420 },
-        { "name": "5 star", "count": 790 }
-      ]
-    },
-    {
-      "id": 16,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL39Va3ClodctPID6dEzjpPMXjX5MUzN473Q&s",
-      "title": "GameZone",
-      "companyName": "PlayHub",
-      "description": "Discover trending mobile games with instant download links.",
-      "size": 48,
-      "reviews": 3200,
-      "ratingAvg": 4.4,
-      "downloads": "12M",
-      "ratings": [
-        { "name": "1 star", "count": 180 },
-        { "name": "2 star", "count": 220 },
-        { "name": "3 star", "count": 440 },
-        { "name": "4 star", "count": 1000 },
-        { "name": "5 star", "count": 1360 }
-      ]
-    },
-    {
-      "id": 17,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDU2ACBl6RlNPivEsbjnvNExjqyneTBTdg_w&s",
-      "title": "ScanDoc Pro",
-      "companyName": "PaperLite",
-      "description": "Scan documents, convert to PDF and share instantly.",
-      "size": 16,
-      "reviews": 950,
-      "ratingAvg": 4.6,
-      "downloads": "2M",
-      "ratings": [
-        { "name": "1 star", "count": 40 },
-        { "name": "2 star", "count": 50 },
-        { "name": "3 star", "count": 100 },
-        { "name": "4 star", "count": 290 },
-        { "name": "5 star", "count": 470 }
-      ]
-    },
-    {
-      "id": 18,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcUB4f9K9o7YvBviaTfl9NUuvuBlTVIhbdVA&s",
-      "title": "Inverter AC TurboCool",
-      "companyName": "AirSmart",
-      "description": "A powerful inverter AC that cools faster, saves energy, and provides stable temperature control even in extreme heat.",
-      "size": 1.5,
-      "reviews": 850,
-      "ratingAvg": 4.4,
-      "downloads": "1M",
-      "ratings": [
-        { "name": "1 star", "count": 50 },
-        { "name": "2 star", "count": 60 },
-        { "name": "3 star", "count": 150 },
-        { "name": "4 star", "count": 260 },
-        { "name": "5 star", "count": 330 }
-      ]
-    },
-    {
-      "id": 19,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8vl0Q2iFSDe2MZKqwhhp7YGyzzfH3DZhjA&s",
-      "title": "CarRental 24/7",
-      "companyName": "DriveNow",
-      "description": "Rent cars instantly with insurance and doorstep delivery.",
-      "size": 43,
-      "reviews": 1400,
-      "ratingAvg": 4.3,
-      "downloads": "7M",
-      "ratings": [
-        { "name": "1 star", "count": 70 },
-        { "name": "2 star", "count": 90 },
-        { "name": "3 star", "count": 180 },
-        { "name": "4 star", "count": 420 },
-        { "name": "5 star", "count": 640 }
-      ]
-    },
-    {
-      "id": 20,
-      "image": "https://media.licdn.com/dms/image/v2/C560BAQGSnR4_E41BSA/company-logo_200_200/company-logo_200_200/0/1647032555771/shopherodashboard_logo?e=2147483647&v=beta&t=vkF085AJSN0TpVh2CXtVd23lU6FX9yVGrQ120Us2YJU",
-      "title": "ShopHero",
-      "companyName": "MarketSoft",
-      "description": "Buy everything you need with fast delivery and best deals.",
-      "size": 55,
-      "reviews": 5500,
-      "ratingAvg": 4.6,
-      "downloads": "40M",
-      "ratings": [
-        { "name": "1 star", "count": 300 },
-        { "name": "2 star", "count": 420 },
-        { "name": "3 star", "count": 850 },
-        { "name": "4 star", "count": 1600 },
-        { "name": "5 star", "count": 2330 }
-      ]
-    },
-    {
-      "id": 21,
-      "image": "https://www.studyboost.com/images/sbBGLogo.png",
-      "title": "StudyBoost",
-      "companyName": "EduZone",
-      "description": "AI-based learning system for students with quizzes and mock tests.",
-      "size": 47,
-      "reviews": 2900,
-      "ratingAvg": 4.5,
-      "downloads": "9M",
-      "ratings": [
-        { "name": "1 star", "count": 140 },
-        { "name": "2 star", "count": 170 },
-        { "name": "3 star", "count": 330 },
-        { "name": "4 star", "count": 900 },
-        { "name": "5 star", "count": 1360 }
-      ]
-    },
-    {
-      "id": 22,
-      "image": "https://cdn.notegpt.io/notegpt/static/tario_image/ai-voice-translator/Why%20AI%20Voice%20Translator%20is%20recommended.png",
-      "title": "VoiceTranslator",
-      "companyName": "LinguaTech",
-      "description": "Instant voice translation between 50+ languages.",
-      "size": 29,
-      "reviews": 1600,
-      "ratingAvg": 4.4,
-      "downloads": "5M",
-      "ratings": [
-        { "name": "1 star", "count": 80 },
-        { "name": "2 star", "count": 120 },
-        { "name": "3 star", "count": 200 },
-        { "name": "4 star", "count": 510 },
-        { "name": "5 star", "count": 690 }
-      ]
-    },
-    {
-      "id": 23,
-      "image": "https://yt3.googleusercontent.com/HZ0DSCAPKH3JfGxTQg_3sB4FYtMZKaddAkWwFlVVrzdAq0yWf_dTzNzXhgiJECO01jDCfN2ibQ=s900-c-k-c0x00ffffff-no-rj",
-      "title": "NewsHub",
-      "companyName": "MediaWorld",
-      "description": "Stay updated on global news with personalized alerts.",
-      "size": 32,
-      "reviews": 4100,
-      "ratingAvg": 4.2,
-      "downloads": "12M",
-      "ratings": [
-        { "name": "1 star", "count": 300 },
-        { "name": "2 star", "count": 330 },
-        { "name": "3 star", "count": 600 },
-        { "name": "4 star", "count": 1400 },
-        { "name": "5 star", "count": 1470 }
-      ]
-    },
-    {
-      "id": 24,
-      "image": "https://d.techtimes.com/en/full/417884/cryptowatch.png?w=1600&h=1200&q=88&f=cf56ae4e4eb28930afa277480daa1332",
-      "title": "CryptoWatch",
-      "companyName": "CoinVision",
-      "description": "Track crypto prices, charts and market insights in real time.",
-      "size": 34,
-      "reviews": 2300,
-      "ratingAvg": 4.3,
-      "downloads": "6M",
-      "ratings": [
-        { "name": "1 star", "count": 120 },
-        { "name": "2 star", "count": 180 },
-        { "name": "3 star", "count": 260 },
-        { "name": "4 star", "count": 820 },
-        { "name": "5 star", "count": 920 }
-      ]
-    },
-    {
-      "id": 25,
-      "image": "https://play-lh.googleusercontent.com/XXYezF2qeRBNCMS5Rcy_1qZ-8WHk4YImWfoKjB97fWLE1A55g00u-TvFpcxy6Of0_L1OImaqlAcdqrjy0kxj=w240-h480-rw",
-      "title": "HealthTrack",
-      "companyName": "WellnessX",
-      "description": "Track steps, heart rate and daily fitness goals easily.",
-      "size": 27,
-      "reviews": 1300,
-      "ratingAvg": 4.4,
-      "downloads": "4M",
-      "ratings": [
-        { "name": "1 star", "count": 90 },
-        { "name": "2 star", "count": 110 },
-        { "name": "3 star", "count": 200 },
-        { "name": "4 star", "count": 420 },
-        { "name": "5 star", "count": 480 }
-      ]
-    },
-    {
-      "id": 26,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECWZKwFFT18UuTgVt2SG7o-i849xj-R77YQ&s",
-      "title": "GalleryPlus",
-      "companyName": "PicMax",
-      "description": "Smart photo organizer with cloud backup support.",
-      "size": 38,
-      "reviews": 900,
-      "ratingAvg": 4.3,
-      "downloads": "2M",
-      "ratings": [
-        { "name": "1 star", "count": 50 },
-        { "name": "2 star", "count": 80 },
-        { "name": "3 star", "count": 120 },
-        { "name": "4 star", "count": 300 },
-        { "name": "5 star", "count": 350 }
-      ]
-    },
-    {
-      "id": 27,
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ef/a3/beefa3cb-4821-1b5f-3045-298d86e099c7/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
-      "title": "QR Scanner Pro",
-      "companyName": "ScanWorld",
-      "description": "Fast QR and barcode scanning with history tracking.",
-      "size": 14,
-      "reviews": 1700,
-      "ratingAvg": 4.6,
-      "downloads": "3M",
-      "ratings": [
-        { "name": "1 star", "count": 40 },
-        { "name": "2 star", "count": 60 },
-        { "name": "3 star", "count": 140 },
-        { "name": "4 star", "count": 550 },
-        { "name": "5 star", "count": 910 }
-      ]
-    },
-    {
-      "id": 28,
-      "image": "https://thumbs.dreamstime.com/b/golden-map-pointer-low-poly-unfolded-mountains-rivers-green-landscapes-location-finder-travel-concept-416472479.jpg",
-      "title": "MapFinder",
-      "companyName": "GeoApps",
-      "description": "Offline maps, GPS navigation and route planning.",
-      "size": 44,
-      "reviews": 1900,
-      "ratingAvg": 4.4,
-      "downloads": "7M",
-      "ratings": [
-        { "name": "1 star", "count": 100 },
-        { "name": "2 star", "count": 150 },
-        { "name": "3 star", "count": 300 },
-        { "name": "4 star", "count": 650 },
-        { "name": "5 star", "count": 700 }
-      ]
-    }
-  ]
-
+[
+  {
+    "id": 1,
+    "image": "https://play-lh.googleusercontent.com/WEeqanqU_MGMtyt1dm_kG-Ftka-Xo-P7ETIXZcFsNN7JOTzqm3SL70gtUXgtk2IqkQ=w240-h480-rw",
+    "title": "PhotoMaster Editor",
+    "companyName": "PixelSoft",
+    "description": "PhotoMaster Editor is a state-of-the-art photo editing tool designed to elevate your images to a new level. It incorporates advanced AI-powered technology capable of automatically enhancing picture quality. You can easily adjust colors, lighting, and contrast with precision. The app offers a wide range of stylish filters and professional effects. Furthermore, pro-level features like object removal, background blur, and portrait enhancements are readily available. Its user-friendly interface ensures a fast and accurate editing experience, suitable for both beginners and seasoned professionals.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://s.cafebazaar.ir/images/icons/com.smartcleaner.pro.free-371ba6de-c965-4c48-b80e-0e847f5db4c6_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+    "title": "SmartCleaner Pro",
+    "companyName": "CleanTech",
+    "description": "SmartCleaner Pro is designed to keep your smartphone running at peak performance. This powerful application specializes in boosting phone speed by meticulously clearing cache memory and removing unnecessary junk files. It automatically identifies files that are consuming storage space and allows you to delete them with a single tap. Additionally, it optimizes background running applications to significantly improve battery life. The built-in CPU cooler feature prevents the phone from overheating, ensuring maximum security and functionality for your device.",
+    "size": 18,
+    "reviews": 680,
+    "ratingAvg": 4.2,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 250 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://play-lh.googleusercontent.com/zHqPgCW3iBfuKfPiClFR3il472GczgFlx3VIiz-8WFSxOVVG_Vw2IAV6knEKZkYabxfZ",
+    "title": "Daily Fitness Coach",
+    "companyName": "FitLife",
+    "description": "Daily Fitness Coach serves as your comprehensive personal health and fitness guide. The app creates customized workout plans tailored to your specific goals, fitness level, and schedule. Using this application, you can easily track your daily calorie intake and expenditure. It features detailed health monitoring functions, such as water intake reminders and sleep tracking capabilities. Hundreds of exercises are available with video guides and voice instructions, suitable for users of all levels. It motivates you to kickstart your fitness journey and maintain a consistently healthy lifestyle.",
+    "size": 33,
+    "reviews": 900,
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 435 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9WP68dD2EyvuYu6ZPO_wtiGzHDxyT0v4KA&s",
+    "title": "SafeVault Password ",
+    "companyName": "SecureWare",
+    "description": "SafeVault Password Manager protects all your online passwords and sensitive data using military-grade encryption. This application assists you in generating strong and unique passwords for all your accounts. You only need to remember one master password to securely store all your other login credentials. It provides an auto-fill feature, making logging into various websites easy and secure. Your data is stored securely, whether in the cloud or directly on your device. This is an essential and reliable solution for ensuring the utmost security of your personal information.",
+    "size": 22,
+    "reviews": 540,
+    "ratingAvg": 4.5,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 170 },
+      { "name": "5 star", "count": 185 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://media.licdn.com/dms/image/v2/C560BAQH88lWqNKKQBg/company-logo_200_200/company-logo_200_200/0/1636473650703/learn_pro_logo?e=2147483647&v=beta&t=dxTRH-S9jW8n4H018efWSBuDpbByjwqnVQuLiDSUVq4",
+    "title": "LearnLang Pro",
+    "companyName": "EduGlobal",
+    "description": "LearnLang Pro is a revolutionary language learning platform designed to help you master over 30 different languages. Its core strength lies in its AI-powered interactive lessons, which personalize and accelerate your learning process. The app utilizes sophisticated speech recognition technology to help you perfect your pronunciation. Learning becomes more engaging through practical conversations, vocabulary games, and cultural insights. It offers a complete and effective solution for learning languages anytime, anywhere, quickly enabling you to become a fluent speaker.",
+    "size": 55,
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2175 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://gray-kwch-prod.gtv-cdn.com/resizer/v2/2N2MY7C7VVENHBX7RKYTLHNSTI.jpg?auth=76f98e836c6eda1ccbfca077655652c44fc910780e9ea6fe334b4fca01d0db9e&width=800&height=450&smart=true",
+    "title": "WeatherFocus",
+    "companyName": "SkyTech",
+    "description": "WeatherFocus is your dependable weather forecasting application. It provides the most accurate, real-time weather information for your current location. You can view hourly and weekly forecasts, which are crucial for planning your daily activities. Its advanced radar feature clearly shows the movement of rain, storms, and snowfall. Most importantly, it sends instant alerts for severe weather conditions, ensuring you are always prepared. This app is highly effective for getting all essential weather information in one convenient place.",
+    "size": 25,
+    "reviews": 960,
+    "ratingAvg": 4.3,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://play-lh.googleusercontent.com/WjveJVEkQnuKU2HqjtC_6y-DTUiCGiUkGO4-pDnkyLccZewpGk-0dS-OtzgCIgBtLw=w526-h296-rw",
+    "title": "BudgetTracker",
+    "companyName": "MoneyFlow",
+    "description": "BudgetTracker is an excellent tool for managing your personal or family finances effectively. Through this app, you can easily track your daily income and expenses, organizing them into various categories for clear oversight. The application assists in setting financial goals and monitoring your progress towards them. It provides insightful analysis of your spending habits using clear graphs and charts. This helps you identify areas of excessive spending and formulate a better savings plan. The simple interface makes it ideal for daily budget tracking and financial clarity.",
+    "size": 19,
+    "reviews": 410,
+    "ratingAvg": 4.2,
+    "downloads": "800K",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 44 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 111 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://play-lh.googleusercontent.com/QUzwo-HbZUbxSQamvXwARzGmgpGhXNxgPMczZbmZRvpG1TREpjHXFPFhOUeEB0WDO0o=w240-h480-rw",
+    "title": "MusicBox Pro",
+    "companyName": "StreamWave",
+    "description": "MusicBox Pro is a premium streaming application catering to music lovers worldwide. Its vast library includes millions of songs, albums, and podcasts across all genres. Based on your listening habits, the app generates personalized recommendations, ensuring you always discover new and favorite music. Key features include high-quality audio streaming, the ability to download for offline listening, and easy custom playlist creation. It is completely ad-free and accessible from any device. With MusicBox Pro, you bring your favorite music world right into your pocket.",
+    "size": 60,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3140 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJujYVanAfbNFVDuX4js__Mq2G778D4BMKhw&s",
+    "title": "VideoCraft Studio",
+    "companyName": "MediaPro",
+    "description": "VideoCraft Studio is a powerful video editing tool specifically designed for mobile users. It allows you to create professional-quality videos using a straightforward interface. The app provides a wide range of ready-made templates, seamless transitions, and diverse visual effects. You can also utilize advanced features such as multi-layer editing, chroma key, and speed control for precise adjustments. It offers extremely fast rendering and exporting capabilities, enabling you to share your videos instantly. This app is ideal for YouTubers, social media content creators, and anyone interested in video editing.",
+    "size": 70,
+    "reviews": 2600,
+    "ratingAvg": 4.6,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1220 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ytimg.com/vi/JN2LpjJPC08/maxresdefault.jpg",
+    "title": "TravelMate",
+    "companyName": "GoGlobal",
+    "description": "TravelMate simplifies your travel planning process from start to finish. Through this application, you can effortlessly find the cheapest flights and the best hotel deals available. It provides personalized travel guides based on your interests and budget, curating ideal itineraries. You can get information on local attractions, restaurants, and events in your destination city. Essential travel information, like flight status updates and hotel booking details, can be tracked in one convenient place. Use TravelMate to plan your next global adventure and ensure a smooth, worry-free trip.",
+    "size": 39,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://play-lh.googleusercontent.com/6qA1eTyPF3DyF-Hm4NVAqNW8DoT6pBZ9pdh7Z0x5nzaPSW3HOOS5NYl4yfPwWlJXMRuS",
+    "title": "QuickNotes",
+    "companyName": "SoftPad",
+    "description": "QuickNotes is a fast, simple, and robust note-taking application designed for efficiency. You can quickly create text notes, detailed checklists, or quick voice memos. Its built-in document scanning feature helps convert physical paper notes into easily managed digital files. Crucially, all your notes automatically sync across all your devices via the cloud, ensuring data accessibility. This provides you with the convenience of accessing your important information anytime, anywhere. It is the ideal app for organizing your daily tasks, meeting agendas, and fleeting thoughts.",
+    "size": 12,
+    "reviews": 890,
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 425 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://shoplineimg.com/6177a34c454eb0001548ef42/61b70de04a4d610017451e1f/800x.jpeg?",
+    "title": "RideHero",
+    "companyName": "MoveTech",
+    "description": "RideHero is your go-to app for instant and reliable ride-hailing services. By using this application, you can easily book a ride to your destination in just a few taps. Real-time driver tracking lets you know exactly when your vehicle will arrive and your estimated time of arrival. It supports multiple payment options, including card and cash, for maximum convenience. For enhanced safety, the app includes in-app emergency support and a driver/passenger rating system. Whether commuting to work or heading home late, RideHero ensures fast, safe, and affordable transportation.",
+    "size": 41,
+    "reviews": 2500,
+    "ratingAvg": 4.3,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://play-lh.googleusercontent.com/pta6_htPZffFjO9cvFGmwPsLTEPY4nkOzsOubmusuZhLhUstu2ouaFb-o-gH33hmLQ",
+    "title": "FoodExpress",
+    "companyName": "DeliFast",
+    "description": "FoodExpress provides you with the convenience of ordering food from all your favorite local restaurants. It guarantees fast and reliable delivery, ensuring your meal arrives hot and fresh every time. The app features extensive restaurant menus and user reviews, helping you make the best choice for your cravings. You can track the status of your order in real-time from preparation to delivery. Multiple payment options and regular discount offers make this app ideal for food delivery. Use FoodExpress to enjoy the best meals from the comfort of your home.",
+    "size": 52,
+    "reviews": 4800,
+    "ratingAvg": 4.2,
+    "downloads": "18M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2360 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://play-lh.googleusercontent.com/DgULTlG17t3v_05hXAaReO09Sx5GxP5oi2m4l5xq9uIQ2nnk9U8lrdek9tOjm_BfK6pA",
+    "title": "ChatWave",
+    "companyName": "Connectify",
+    "description": "ChatWave is a fast, secure, and versatile messaging application built for modern communication. It ensures maximum security for your conversations by utilizing end-to-end encryption technology. On this platform, you can engage in text messaging, as well as high-quality voice and video calling. It supports cloud backup, ensuring that your messages and media are never lost. Features like group chats, file sharing, and fun stickers make it suitable for both personal and professional communication. Stay effortlessly connected with your friends, family, and colleagues globally through ChatWave.",
+    "size": 28,
+    "reviews": 7200,
+    "ratingAvg": 4.5,
+    "downloads": "35M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://mind-ease.eu/wp-content/uploads/mindease-logo-01-256x256-1.png",
+    "title": "MindEase",
+    "companyName": "RelaxApps",
+    "description": "MindEase is your personal guide to achieving mental peace and overall wellness. The app features a variety of guided meditation sessions designed to reduce stress and calm the mind effectively. Various breathing exercises are included to enhance focus and alleviate anxiety. Furthermore, it provides a selection of calming background music and nature sounds to help you relax. You can also benefit from sleep stories and a sleep tracking feature. MindEase is an essential tool for prioritizing your mental health and maintaining balance in your daily life.",
+    "size": 30,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL39Va3ClodctPID6dEzjpPMXjX5MUzN473Q&s",
+    "title": "GameZone",
+    "companyName": "PlayHub",
+    "description": "GameZone is your dedicated gateway to the world of mobile gaming. This platform allows you to quickly discover the trending and most popular mobile games currently on the market. It provides detailed descriptions, compelling trailers, and valuable user reviews for each game. Direct and fast download links are provided for every title, ensuring immediate access to the fun. The app hosts a wide range of game categories, including action, puzzles, strategy, and sports. Install GameZone to stay connected with the gaming community and enjoy new gaming experiences.",
+    "size": 48,
+    "reviews": 3200,
+    "ratingAvg": 4.4,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 440 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1360 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDU2ACBl6RlNPivEsbjnvNExjqyneTBTdg_w&s",
+    "title": "ScanDoc Pro",
+    "companyName": "PaperLite",
+    "description": "ScanDoc Pro transforms your smartphone into a powerful, portable scanner. This app is capable of scanning documents in high-quality, preventing blurring or distortion for professional results. Scanned documents can be effortlessly converted into industry-standard PDF files. It supports OCR (Optical Character Recognition), allowing you to edit the text extracted from scanned images. You can instantly share your files via email, cloud services, or any other platform. For office or personal use, ScanDoc Pro simplifies document management and contributes to a paperless environment.",
+    "size": 16,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcUB4f9K9o7YvBviaTfl9NUuvuBlTVIhbdVA&s",
+    "title": "Inverter AC TurboCool",
+    "companyName": "AirSmart",
+    "description": "Inverter AC TurboCool represents a high-performance inverter air conditioner. It delivers rapid cooling capabilities, ensuring your room reaches the desired temperature in a short time. Thanks to its advanced inverter technology, it significantly saves electricity compared to conventional AC units. It automatically adjusts to temperature variations, ensuring stable and consistent cooling, even during periods of extreme heat. Its powerful filters purify the air, and its silent operation guarantees uninterrupted, comfortable sleep. This AC is an excellent choice for a durable and eco-friendly cooling solution.",
+    "size": 1.5,
+    "reviews": 850,
+    "ratingAvg": 4.4,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8vl0Q2iFSDe2MZKqwhhp7YGyzzfH3DZhjA&s",
+    "title": "CarRental 24/7",
+    "companyName": "DriveNow",
+    "description": "CarRental 24/7 offers you the freedom to rent a car easily at any time, day or night. Using this app, you can choose the perfect vehicle from a diverse range of models according to your needs. Comprehensive insurance coverage is included with every rental, making your journey secure and worry-free. Most conveniently, it provides doorstep delivery and pickup services for the vehicle. You have the flexibility to rent cars on a daily, weekly, or monthly basis. CarRental 24/7 is a trusted platform for enjoying your travels with comfort and complete independence.",
+    "size": 43,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://media.licdn.com/dms/image/v2/C560BAQGSnR4_E41BSA/company-logo_200_200/company-logo_200_200/0/1647032555771/shopherodashboard_logo?e=2147483647&v=beta&t=vkF085AJSN0TpVh2CXtVd23lU6FX9yVGrQ120Us2YJU",
+    "title": "ShopHero",
+    "companyName": "MarketSoft",
+    "description": "ShopHero is an indispensable online shopping application, providing a fantastic platform to purchase everything you need. It offers a wide range of products across various categories, from electronics and fashion to groceries and home essentials. You can find the best deals and special discounts exclusively on this app. The application ensures fast and reliable delivery directly to your location. Its user-friendly interface, secure payment options, and easy return policy make it a popular choice for shopping. Complete all your purchases easily and affordably from the comfort of your home with ShopHero.",
+    "size": 55,
+    "reviews": 5500,
+    "ratingAvg": 4.6,
+    "downloads": "40M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2330 }
+    ]
+  },
+  {
+    "id": 21,
+    "image": "https://www.studyboost.com/images/sbBGLogo.png",
+    "title": "StudyBoost",
+    "companyName": "EduZone",
+    "description": "StudyBoost is an AI-based learning system designed specifically for students across all academic levels. This application helps students easily grasp difficult subjects through quizzes, mock tests, and personalized study courses. The AI technology identifies your areas of weakness and creates a customized study plan accordingly to maximize efficiency. It is perfectly designed for preparation for competitive exams and supplementing school curriculum studies. You receive detailed performance reports that help track your progress. Boost your study momentum and achieve your academic goals with StudyBoost.",
+    "size": 47,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 330 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1360 }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://cdn.notegpt.io/notegpt/static/tario_image/ai-voice-translator/Why%20AI%20Voice%20Translator%20is%20recommended.png",
+    "title": "VoiceTranslator",
+    "companyName": "LinguaTech",
+    "description": "VoiceTranslator is a revolutionary voice translation tool providing instant translation between more than 50 languages. As you speak, you can hear the translation in the other language immediately, which is incredibly helpful during international conversations or travel. In addition to real-time voice translation, it also supports text and image translation capabilities. The use of advanced AI technology ensures highly accurate translations for clear communication. For business, travel, or learning new languages, VoiceTranslator is an essential tool that breaks down communication barriers.",
+    "size": 29,
+    "reviews": 1600,
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 510 },
+      { "name": "5 star", "count": 690 }
+    ]
+  },
+  {
+    "id": 23,
+    "image": "https://yt3.googleusercontent.com/HZ0DSCAPKH3JfGxTQg_3sB4FYtMZKaddAkWwFlVVrzdAq0yWf_dTzNzXhgiJECO01jDCfN2ibQ=s900-c-k-c0x00ffffff-no-rj",
+    "title": "NewsHub",
+    "companyName": "MediaWorld",
+    "description": "NewsHub is the application that keeps you updated with all the latest news happening around the globe. It aggregates news from various reliable sources and presents them in a personalized feed based on your preferred categories. You can set customized alerts for breaking news on topics like politics, business, sports, and technology. Its concise and clear summaries help you quickly grasp the essence of the news story. With NewsHub, you will never miss any significant global events and will always stay at the center of information.",
+    "size": 32,
+    "reviews": 4100,
+    "ratingAvg": 4.2,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 1470 }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "https://d.techtimes.com/en/full/417884/cryptowatch.png?w=1600&h=1200&q=88&f=cf56ae4e4eb28930afa277480daa1332",
+    "title": "CryptoWatch",
+    "companyName": "CoinVision",
+    "description": "CryptoWatch is a must-have application for cryptocurrency traders and enthusiasts. It provides real-time prices, detailed charts, and market insights for thousands of cryptocurrencies. You can track the latest market movements of Bitcoin, Ethereum, and other Altcoins instantly. The app delivers valuable market intelligence and breaking news using advanced technology. You can create customized portfolios and set alerts for specific price points to manage your investments better. CryptoWatch helps you understand the volatility of the crypto market and make informed investment decisions.",
+    "size": 34,
+    "reviews": 2300,
+    "ratingAvg": 4.3,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "https://play-lh.googleusercontent.com/XXYezF2qeRBNCMS5Rcy_1qZ-8WHk4YImWfoKjB97fWLE1A55g00u-TvFpcxy6Of0_L1OImaqlAcdqrjy0kxj=w240-h480-rw",
+    "title": "HealthTrack",
+    "companyName": "WellnessX",
+    "description": "HealthTrack is a straightforward application for easily tracking your daily health and fitness metrics. It accurately records data related to your steps taken, heart rate, and other physical activities. Through the app, you can effortlessly set your daily fitness goals and monitor your progress toward achieving them. It also provides additional health monitoring features such as sleep tracking and calorie expenditure calculation. All your health data is easily accessible through a user-friendly and intuitive dashboard. HealthTrack helps you maintain an active and consistently healthy lifestyle.",
+    "size": 27,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "id": 26,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECWZKwFFT18UuTgVt2SG7o-i849xj-R77YQ&s",
+    "title": "GalleryPlus",
+    "companyName": "PicMax",
+    "description": "GalleryPlus is a smart and robust gallery application for organizing your photographs efficiently. It uses AI technology to automatically sort your images based on date, location, and even faces within the photos. The app supports cloud backup, ensuring your photos are secure while freeing up valuable device storage space. It includes basic editing tools like cropping and rotation for quick adjustments. You can also secure your private photos using a dedicated secret folder feature. Use GalleryPlus to easily manage your photo collection and keep your memories safe.",
+    "size": 38,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "id": 27,
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ef/a3/beefa3cb-4821-1b5f-3045-298d86e099c7/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
+    "title": "QR Scanner Pro",
+    "companyName": "ScanWorld",
+    "description": "QR Scanner Pro is an exceptionally fast and reliable QR code and barcode scanning application. It can quickly detect any type of code and automatically displays the relevant information or link. Through this app, you can easily access websites, connect to Wi-Fi networks, or save contact information instantly. Its built-in history tracking feature allows you to review all previously scanned codes conveniently. This app is a simple, efficient, and essential tool for all your QR code and barcode scanning needs.",
+    "size": 14,
+    "reviews": 1700,
+    "ratingAvg": 4.6,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "id": 28,
+    "image": "https://thumbs.dreamstime.com/b/golden-map-pointer-low-poly-unfolded-mountains-rivers-green-landscapes-location-finder-travel-concept-416472479.jpg",
+    "title": "MapFinder",
+    "companyName": "GeoApps",
+    "description": "MapFinder offers you the convenience of offline maps and accurate GPS navigation without reliance on an internet connection. You can download maps and use them even when you are completely offline, which is highly beneficial for travel. It helps in planning the best routes with real-time voice-guided navigation. You can also view traffic conditions and information on various local points of interest. Its compass and altimeter features are helpful during outdoor activities. MapFinder is a trusted companion for finding your way and traveling confidently in unfamiliar territories.",
+    "size": 44,
+    "reviews": 1900,
+    "ratingAvg": 4.4,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 700 }
+    ]
+  }
+]

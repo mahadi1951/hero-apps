@@ -11,7 +11,7 @@ const ErrorPage = () => {
         The page you are looking for is not available.
       </p>
       <Link to={"/"}>
-        <button className="btn py-3 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]   text-white">
+        <button className="btn py-3 bg-linear-to-r from-[#632EE3] to-[#9F62F2]   text-white">
           Go Back!
         </button>
       </Link>

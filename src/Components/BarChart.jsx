@@ -42,7 +42,6 @@ const BarChart = () => {
       </div>
 
       {/* Bottom Line */}
-      <div className="border-b mt-1 w-full pl-16"></div>
     </div>
   );
 };

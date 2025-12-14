@@ -7,17 +7,14 @@ import appstore from "../assets/appstore.png";
 import hero from "../assets/hero.png";
 import useApps from "../Hooks/useApps";
 import logo from "../assets/logo.png";
+import Loading from "./loading";
+import ErrorPage from "./ErrorPage";
 
 const Home = () => {
   // const apps = useLoaderData();
   const { apps, loading, error } = useApps();
-  if (loading)
-    return (
-      <div className="flex justify-center items-center h-[400px] bg-gray-100">
-        <img className="w-60 h-60 animate-spin" src={logo} alt="" />
-      </div>
-    );
-  if (error) return <p>{error}</p>;
+  if (loading) return <Loading />;
+  if (error) return <ErrorPage />;
   const featureApps = apps.slice(0, 8);
   return (
     <div className="bg-[#f5f5f5]">
@@ -79,13 +76,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="text-center py-7">
+      <div className="text-center py-1">
         <h1 className="font-bold text-3xl py-3 text-g">Trending Apps</h1>
         <p className="py-1 text-gray-500">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="py-2 text-center ml-10">
+      <div className="py-2 text-center ">
         <Link
           className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
           to={"/apps"}
@@ -98,7 +95,7 @@ const Home = () => {
           <AppsCard key={app} app={app}></AppsCard>
         ))}
       </div>
-      <div className="py-2 text-center ml-10">
+      <div className="py-2 text-center ">
         <Link
           className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
           to={"/apps"}

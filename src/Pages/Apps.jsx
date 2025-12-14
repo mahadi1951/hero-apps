@@ -3,6 +3,8 @@ import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import Loading from "./loading";
+import ErrorPage from "./ErrorPage";
 
 const Apps = () => {
   const { apps, loading, error } = useApps();
@@ -17,13 +19,8 @@ const Apps = () => {
     }, 300);
   };
 
-  if (loading)
-    return (
-      <div className="flex justify-center items-center h-[400px] bg-gray-100">
-        <img className="w-60 h-60 animate-spin" src={logo} alt="" />
-      </div>
-    );
-  if (error) return <p>{error}</p>;
+  if (loading) return <Loading />;
+  if (error) return <ErrorPage />;
 
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term

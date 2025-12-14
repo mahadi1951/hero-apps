@@ -7,6 +7,8 @@ import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import BarChart from "../Components/BarChart";
+import Loading from "./loading";
 
 const AppsDetails = () => {
   const { id } = useParams();
@@ -14,7 +16,6 @@ const AppsDetails = () => {
 
   const [isInstalled, setIsInstalled] = useState(false);
 
-  // check installed apps on initial render
   useEffect(() => {
     const installedApps =
       JSON.parse(localStorage.getItem("installation")) || [];
@@ -22,8 +23,8 @@ const AppsDetails = () => {
     setIsInstalled(exists);
   }, [id]);
 
-  if (loading) return <p className="text-center py-10">Loading...</p>;
-  if (error) return <p className="text-center py-10">Error loading app data</p>;
+  if (loading) return <Loading />;
+  if (error) return <div>Error loading app.</div>;
 
   const app = apps.find((item) => Number(item.id) === Number(id));
 
@@ -36,7 +37,7 @@ const AppsDetails = () => {
           The App you are requesting is not found on our system.
         </p>
         <Link to="/apps">
-          <button className="btn py-3 px-6 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white mt-4">
+          <button className="btn py-3 px-6 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white mt-4">
             Go Back
           </button>
         </Link>
@@ -44,94 +45,86 @@ const AppsDetails = () => {
     );
   }
 
-  const { downloads, ratingAvg, reviews, size, companyName, title, image } =
-    app;
-
   const handleInstall = () => {
     const installedApps =
       JSON.parse(localStorage.getItem("installation")) || [];
 
-    // Check for duplicate
     const exists = installedApps.some(
       (item) => Number(item.id) === Number(app.id)
     );
 
     if (exists) {
-      toast.error(`"${title}" is already installed!`);
+      toast.error(`"${app.title}" is already installed!`);
       setIsInstalled(true);
       return;
     }
 
-    installedApps.push(app);
-    localStorage.setItem("installation", JSON.stringify(installedApps));
+    const updatedApps = [...installedApps, app];
+    localStorage.setItem("installation", JSON.stringify(updatedApps));
     setIsInstalled(true);
-
     toast.success(
-      `Yahoo !! "${companyName} : ${title}" installed successfully!`
+      `"${app.companyName} : ${app.title}" installed successfully!`
     );
   };
 
   return (
-    <div className="bg-[#f5f5f5]   ">
-      <div className="flex flex-col md:flex-row gap-8  max-w-7xl mx-auto bg-white p-6 rounded-lg shadow-md">
-        <div className="flex-shrink-0">
+    <div className="bg-[#f8f8f8]">
+      <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto py-6">
+        <div className="shrink-0">
           <img
             className="w-full md:w-80 h-80 rounded-3xl shadow"
-            src={image}
-            alt={title}
+            src={app.image}
+            alt={app.title}
           />
         </div>
 
         <div className="flex-1 flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-2">
-              {companyName} : {title}
+              {app.companyName} : {app.title}
             </h2>
+
             <p className="mb-4">
               Developed by{" "}
-              <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
+              <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
                 productive.io
               </span>
             </p>
 
-            <div className="flex gap-6 mb-6">
+            <div className="flex gap-6 py-6">
               <div>
-                <img
-                  className="w-5 h-5 mb-1"
-                  src={downloadIcon}
-                  alt="Downloads"
-                />
+                <img className="w-10 h-10 mb-1" src={downloadIcon} alt="" />
                 <p>Downloads</p>
-                <h1 className="font-bold text-2xl">{downloads}</h1>
+                <h1 className="font-bold text-2xl">{app.downloads}</h1>
               </div>
               <div>
-                <img className="w-5 h-5 mb-1" src={rating} alt="Rating" />
+                <img className="w-10 h-10 mb-1" src={rating} alt="" />
                 <p>Average Ratings</p>
-                <h1 className="font-bold text-2xl">{ratingAvg}</h1>
+                <h1 className="font-bold text-2xl">{app.ratingAvg}</h1>
               </div>
               <div>
-                <img className="w-5 h-5 mb-1" src={review} alt="Reviews" />
+                <img className="w-10 h-10 mb-1" src={review} alt="" />
                 <p>Total Reviews</p>
-                <h1 className="font-bold text-2xl">{reviews}</h1>
+                <h1 className="font-bold text-2xl">{app.reviews}</h1>
               </div>
             </div>
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 pb-6">
             <button
               onClick={handleInstall}
               disabled={isInstalled}
-              className={`px-6 py-2 rounded text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] ${
+              className={`px-6 py-2 rounded text-white font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2] ${
                 isInstalled
                   ? "opacity-60 cursor-not-allowed"
                   : "hover:opacity-90"
               }`}
             >
-              {isInstalled ? "Installed" : `Install Now (${size} MB)`}
+              {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
             </button>
 
             <Link to="/apps">
-              <button className="px-6 py-2 rounded bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold hover:opacity-90">
+              <button className="px-6 py-2 rounded bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold hover:opacity-90">
                 Back
               </button>
             </Link>
@@ -139,7 +132,13 @@ const AppsDetails = () => {
         </div>
       </div>
 
+      <BarChart />
       <ToastContainer position="top-right" autoClose={1500} />
+
+      <div className="text-gray-500 max-w-6xl mx-auto py-6">
+        <h1 className="text-3xl font-bold">Description</h1>
+        <p className="py-3">{app.description}</p>
+      </div>
     </div>
   );
 };
