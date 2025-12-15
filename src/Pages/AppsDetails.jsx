@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import useApps from "../Hooks/useApps";
-import appError from "../assets/App-Error.png";
 import downloadIcon from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
@@ -9,6 +8,8 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import BarChart from "../Components/BarChart";
 import Loading from "./loading";
+import ErrorPage from "./ErrorPage";
+import ErrorApps from "../Components/ErrorApps";
 
 const AppsDetails = () => {
   const { id } = useParams();
@@ -24,25 +25,12 @@ const AppsDetails = () => {
   }, [id]);
 
   if (loading) return <Loading />;
-  if (error) return <div>Error loading app.</div>;
+  if (error) return <ErrorPage />;
 
   const app = apps.find((item) => Number(item.id) === Number(id));
 
   if (!app) {
-    return (
-      <div className="text-center py-10">
-        <img className="w-64 h-64 mx-auto" src={appError} alt="App Not Found" />
-        <h1 className="text-4xl font-bold py-3">OPPS!! APP NOT FOUND</h1>
-        <p className="text-gray-500 py-2">
-          The App you are requesting is not found on our system.
-        </p>
-        <Link to="/apps">
-          <button className="btn py-3 px-6 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white mt-4">
-            Go Back
-          </button>
-        </Link>
-      </div>
-    );
+    return <ErrorApps />;
   }
 
   const handleInstall = () => {
@@ -68,8 +56,8 @@ const AppsDetails = () => {
   };
 
   return (
-    <div className="bg-[#f8f8f8]">
-      <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto py-6">
+    <div className="px-4  bg-[#f8f8f8]">
+      <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto py-2 lg:py-6">
         <div className="shrink-0">
           <img
             className="w-full md:w-80 h-80 rounded-3xl shadow"
@@ -136,7 +124,7 @@ const AppsDetails = () => {
       <ToastContainer position="top-right" autoClose={1500} />
 
       <div className="text-gray-500 max-w-6xl mx-auto py-6">
-        <h1 className="text-3xl font-bold">Description</h1>
+        <h1 className="text-3xl font-bold">Description </h1>
         <p className="py-3">{app.description}</p>
       </div>
     </div>

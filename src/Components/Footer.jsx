@@ -3,8 +3,8 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-base-200 text-base-content px-10 py-10">
-      <aside className="text-center content-center">
+    <footer className="footer sm:footer-horizontal bg-base-200 text-base-content px-10 mx-auto py-4 ">
+      <aside className=" sm:content-center text-center">
         <img className="w-20 h-20 mx-auto" src={logo} alt="" />
         <p className="">
           HERO.IO
@@ -12,7 +12,7 @@ const Footer = () => {
           Providing reliable tech since 1992
         </p>
       </aside>
-      <nav>
+      <nav className="content-center text-center">
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">Branding</a>
         <a className="link link-hover">Design</a>

@@ -56,16 +56,16 @@ const Installation = () => {
   };
 
   return (
-    <div className=" bg-[#f5f5f5]">
+    <div className=" bg-[#f5f5f5] py-2">
       <div className="text-center py-4">
         <h1 className="text-4xl font-bold text-gray-900">
           Your Installed Apps
         </h1>
-        <p className="text-gray-500">
+        <p className="text-gray-500 py-2">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="flex justify-between py-3 items-center  max-w-6xl mx-auto">
+      <div className="flex flex-col md:flex-row md:justify-between md:px-3 lg:flex-1  gap-3 lg:justify-between  py-3 items-center  max-w-6xl mx-auto">
         <h1 className="text-2xl font-semibold">
           ({sortedItem().length}) Apps Found
         </h1>
@@ -85,7 +85,9 @@ const Installation = () => {
         {sortedItem().map((p) => (
           <div
             key={p.id}
-            className="  bg-base-100 shadow-sm  py-4 px-3 my-3 items-center flex justify-between rounded-2xl"
+            className="  bg-white rounded-2xl shadow-sm p-4
+             flex flex-col gap-4
+             md:flex-row md:items-center md:justify-between"
           >
             <div className="flex gap-4">
               <img
@@ -113,7 +115,7 @@ const Installation = () => {
 
             <button
               onClick={() => handleUninstall(p)}
-              className="btn text-white bg-[#00d390] mr-3"
+              className="btn text-white bg-[#00d390] w-full md:w-auto mr-3"
             >
               Uninstall
             </button>

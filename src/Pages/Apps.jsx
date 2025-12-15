@@ -37,14 +37,14 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="flex justify-between max-w-7xl mx-auto">
-        <div>
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between lg:max-w-7xl mx-auto px-4 py-4">
+        <div className="text-center py-3">
           <h1 className="text-xl font-semibold">
             ({searchedApps.length}) Apps Found
           </h1>
         </div>
 
-        <label className="input mr-3">
+        <label className="input  lg:mr-1">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
@@ -70,24 +70,24 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-3  max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 px-2  md:grid-cols-2 md:pl-14 lg:grid-cols-4 gap-4 lg:pr-14  ">
         {loading ? (
-          <div className="col-span-full flex justify-center items-center min-h-[320px]">
+          <div className="col-span-full flex justify-center items-center min-h-80">
             <img className="w-40 h-40 animate-spin" src={logo} alt="loading" />
           </div>
         ) : searching ? (
-          <div className="col-span-full flex justify-center items-center min-h-[320px]">
+          <div className="col-span-full flex justify-center items-center min-h-80">
             <img className="w-40 h-40 animate-spin" src={logo} alt="loading" />
           </div>
         ) : searchedApps.length ? (
           searchedApps.map((app) => <AppsCard key={app.id} app={app} />)
         ) : (
-          <div className="col-span-full flex flex-col items-center justify-center min-h-[320px] gap-4">
+          <div className="col-span-full flex flex-col items-center justify-center min-h-80 gap-4">
             <p className="text-gray-500 text-2xl md:text-4xl font-semibold">
               No Apps Found
             </p>
             <Link to="/">
-              <button className="btn rounded bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white hover:opacity-90 transition">
+              <button className="btn rounded bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white hover:opacity-90 transition">
                 Go Home
               </button>
             </Link>

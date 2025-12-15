@@ -6,7 +6,7 @@ import play from "../assets/playstore.png";
 import appstore from "../assets/appstore.png";
 import hero from "../assets/hero.png";
 import useApps from "../Hooks/useApps";
-import logo from "../assets/logo.png";
+
 import Loading from "./loading";
 import ErrorPage from "./ErrorPage";
 
@@ -17,11 +17,11 @@ const Home = () => {
   if (error) return <ErrorPage />;
   const featureApps = apps.slice(0, 8);
   return (
-    <div className="bg-[#f5f5f5]">
+    <div className="bg-[#f5f5f5] w-full">
       <div className="text-center content-center py-4">
         <h1 className="text-4xl font-bold">
           We Build <br />
-          <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text py-4">
+          <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text py-4">
             Productive
           </span>{" "}
           Apps
@@ -51,13 +51,13 @@ const Home = () => {
           </button>
         </div>
         <div>
-          <img className="w-[600px] h-80 block mx-auto  " src={hero} alt="" />
+          <img className="lg:max-w-xl  h-80 block mx-auto  " src={hero} alt="" />
         </div>
-        <div className="text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] w-full py-6">
+        <div className="text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-full py-6">
           <h1 className="py-3  text-2xl font-bold">
             Trusted by Millions, Built for You
           </h1>
-          <div className="flex justify-around ">
+          <div className="flex justify-around text-xs lg:text-xs">
             <div>
               <p className="py-3">Total Downloads</p>
               <h1 className="text-4xl font-bold">29.6M</h1>
@@ -84,20 +84,20 @@ const Home = () => {
       </div>
       <div className="py-2 text-center ">
         <Link
-          className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+          className="btn btn-outline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"
           to={"/apps"}
         >
           Show All Apps
         </Link>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 px-2  md:grid-cols-2 md:pl-14 lg:grid-cols-4 gap-4 lg:pr-14">
         {featureApps.map((app) => (
           <AppsCard key={app} app={app}></AppsCard>
         ))}
       </div>
       <div className="py-2 text-center ">
         <Link
-          className="btn btn-outline bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+          className="btn btn-outline bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"
           to={"/apps"}
         >
           Show All Apps

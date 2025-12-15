@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
     <div className="text-center">
-      <img className="w-[320px] h-[310px] mx-auto py-3" src={error} alt="" />
+      <img
+        className="h-72 w-64 lg:w-[320px] lg:h-72 mx-auto py-3"
+        src={error}
+        alt=""
+      />
       <h1 className="font-bold text-4xl py-3 text-g">Oops, page not found!</h1>
       <p className="py-3 text-gray-500">
         The page you are looking for is not available.
