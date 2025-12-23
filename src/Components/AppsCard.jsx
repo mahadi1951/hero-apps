@@ -8,16 +8,16 @@ const AppsCard = ({ app }) => {
 
   return (
     <Link to={`/apps/${id}`}>
-      <div className="card bg-base-100 w-[300px] h-[300px] shadow-sm hover:scale-105 transition ease-in-out  py-3">
+      <div className="card bg-base-100 w-70 h-72 shadow-sm hover:scale-105 transition ease-in-out  py-3">
         <img
-          className="w-52 h-44 text-center mx-auto"
+          className="w-52 h-44 text-center rounded-2xl mx-auto"
           src={image}
           alt="image"
         />
-        <h2 className="font-semibold mx-auto">
+        <h2 className="font-semibold mx-auto mt-2">
           {companyName}-{title}
         </h2>
-        <div className="flex justify-between my-5 mx-5">
+        <div className="flex justify-between my-7 mx-3">
           <div className="flex gap-2 items-center bg-[#f1f5e8] px-3 py-1 rounded-2xl">
             <img className="h-4 w-4" src={download} alt="" />
             <p>{downloads}</p>

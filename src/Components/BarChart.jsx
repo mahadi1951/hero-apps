@@ -1,47 +1,82 @@
-import React from "react";
+import React, { useState } from "react";
 
-const BarChart = () => {
-  const ratings = [
-    { name: "1 star", count: 50 },
-    { name: "2 star", count: 60 },
-    { name: "3 star", count: 150 },
-    { name: "4 star", count: 260 },
-    { name: "5 star", count: 330 },
-  ];
-  const maxValue = Math.max(...ratings.map((r) => r.count));
+const BarChart = ({ ratings }) => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  if (!Array.isArray(ratings) || ratings.length === 0) {
+    return (
+      <p className="text-center text-gray-500 py-6">No rating data available</p>
+    );
+  }
+
+  const sortedByStar = [...ratings].sort((a, b) => {
+    const getStar = (r) => Number(r.name.split(" ")[0]);
+    return getStar(b) - getStar(a);
+  });
+
+  const allCounts = ratings.map((r) => r.count);
+  const maxCount = Math.max(...allCounts);
+
+  const dynamicTicks = [0, ...allCounts].sort((a, b) => a - b);
 
   return (
-    <div className="w-full max-w-7xl mx-auto mt-2">
-      <h2 className="text-xl font-semibold mb-4">Ratings</h2>
+    <div className="p-4 sm:p-6 lg:p-8 rounded-lg max-w-7xl mx-auto my-6 font-sans">
+      <h2 className="text-[#1a2b4b] text-lg sm:text-xl font-bold mb-4 sm:mb-6">
+        Ratings
+      </h2>
 
       {/* Bars */}
-      {ratings.map((r, i) => (
-        <div key={i} className="flex items-center gap-4 mb-4 py-4">
-          <span className="w-14 text-sm">{r.name}</span>
+      <div className="space-y-3 sm:space-y-4 mb-2">
+        {sortedByStar.map((r, id) => (
+          <div key={id} className="flex items-center gap-2 sm:gap-4">
+            {/* Star label */}
+            <span className="w-12 sm:w-16 text-xs sm:text-sm text-gray-500">
+              {r.name}
+            </span>
 
-          <div className="flex-1 bg-gray-200 rounded">
+            {/* Bar */}
             <div
-              className="h-4 bg-orange-500 rounded"
-              style={{
-                width: `${(r.count / maxValue) * 100}%`,
-                background:
-                  "linear-gradient(to right, #FFB74D, #FB8C00, #F57C00)",
-              }}
-            ></div>
-          </div>
-        </div>
-      ))}
+              className="flex-1 bg-transparent h-5 sm:h-6 lg:h-8 relative"
+              onMouseEnter={() => setHoveredIndex(id)}
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              <div
+                className="h-full rounded-sm bg-[#ff8a00]"
+                style={{
+                  width: `${(r.count / maxCount) * 100}%`,
+                }}
+              />
 
-      {/* Bottom Common Number Axis */}
-      <div className="mt-6 flex justify-between text-sm text-gray-600 w-full pl-16">
-        <span>0</span>
-        <span>3000</span>
-        <span>6000</span>
-        <span>9000</span>
-        <span>12000</span>
+              {/* Tooltip */}
+              {hoveredIndex === id && (
+                <div className="absolute -top-7 sm:-top-8 right-0 bg-gray-800 text-white text-[10px] sm:text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+                  <p className="text-center font-semibold">{r.name}</p>
+                  <p>{r.count} votes</p>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
       </div>
 
-      {/* Bottom Line */}
+      {/* Bottom count scale */}
+      <div className="flex items-center gap-2 sm:gap-4">
+        <div className="w-12 sm:w-16"></div>
+
+        <div className="flex-1 relative h-6 mt-2">
+          {dynamicTicks.map((val, idx) => (
+            <span
+              key={idx}
+              className="absolute text-[10px] sm:text-sm text-gray-400 transform -translate-x-1/2"
+              style={{
+                left: `${(val / maxCount) * 100}%`,
+              }}
+            >
+              {val}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

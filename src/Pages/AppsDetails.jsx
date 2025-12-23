@@ -32,6 +32,18 @@ const AppsDetails = () => {
   if (!app) {
     return <ErrorApps />;
   }
+  const {
+    downloads,
+    description,
+    ratingAvg,
+    reviews,
+    size,
+    companyName,
+    title,
+    image,
+    ratings,
+  } = app;
+  console.log("ratings: ", ratings);
 
   const handleInstall = () => {
     const installedApps =
@@ -42,7 +54,7 @@ const AppsDetails = () => {
     );
 
     if (exists) {
-      toast.error(`"${app.title}" is already installed!`);
+      toast.error(`"${title}" is already installed!`);
       setIsInstalled(true);
       return;
     }
@@ -50,9 +62,7 @@ const AppsDetails = () => {
     const updatedApps = [...installedApps, app];
     localStorage.setItem("installation", JSON.stringify(updatedApps));
     setIsInstalled(true);
-    toast.success(
-      `"${app.companyName} : ${app.title}" installed successfully!`
-    );
+    toast.success(`"${companyName} : ${title}" installed successfully!`);
   };
 
   return (
@@ -61,15 +71,15 @@ const AppsDetails = () => {
         <div className="shrink-0">
           <img
             className="w-full md:w-80 h-80 rounded-3xl shadow"
-            src={app.image}
-            alt={app.title}
+            src={image}
+            alt={title}
           />
         </div>
 
         <div className="flex-1 flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-2">
-              {app.companyName} : {app.title}
+              {companyName} : {title}
             </h2>
 
             <p className="mb-4">
@@ -83,17 +93,17 @@ const AppsDetails = () => {
               <div>
                 <img className="w-10 h-10 mb-1" src={downloadIcon} alt="" />
                 <p>Downloads</p>
-                <h1 className="font-bold text-2xl">{app.downloads}</h1>
+                <h1 className="font-bold text-2xl">{downloads}</h1>
               </div>
               <div>
                 <img className="w-10 h-10 mb-1" src={rating} alt="" />
                 <p>Average Ratings</p>
-                <h1 className="font-bold text-2xl">{app.ratingAvg}</h1>
+                <h1 className="font-bold text-2xl">{ratingAvg}</h1>
               </div>
               <div>
                 <img className="w-10 h-10 mb-1" src={review} alt="" />
                 <p>Total Reviews</p>
-                <h1 className="font-bold text-2xl">{app.reviews}</h1>
+                <h1 className="font-bold text-2xl">{reviews}</h1>
               </div>
             </div>
           </div>
@@ -108,7 +118,7 @@ const AppsDetails = () => {
                   : "hover:opacity-90"
               }`}
             >
-              {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
+              {isInstalled ? "Installed" : `Install Now (${size} MB)`}
             </button>
 
             <Link to="/apps">
@@ -120,12 +130,12 @@ const AppsDetails = () => {
         </div>
       </div>
 
-      <BarChart />
+      <BarChart key={id} ratings={ratings} />
       <ToastContainer position="top-right" autoClose={1500} />
 
-      <div className="text-gray-500 max-w-6xl mx-auto py-6">
+      <div className="text-gray-500 max-w-7xl mx-auto py-6">
         <h1 className="text-3xl font-bold">Description </h1>
-        <p className="py-3">{app.description}</p>
+        <p className="py-3">{description}</p>
       </div>
     </div>
   );

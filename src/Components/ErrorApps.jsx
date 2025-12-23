@@ -1,5 +1,6 @@
 import React from "react";
 import appError from "../assets/App-Error.png";
+import { Link } from "react-router-dom";
 
 const ErrorApps = () => {
   return (

@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="  navbar     bg-base-100    shadow-sm">
+    <div className="max-w-7xl mx-auto  navbar     bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,14 +33,15 @@ const Navbar = () => {
             <Link to={"/installation"}>Installation</Link>
           </ul>
         </div>
-        <div className="flex-1 flex items-center gap-3">
-          <img className="w-8 text-center" src={logo} alt="" />
-          <Link className="" to={"/"}>
+        <Link className="" to={"/"}>
+          <div className="flex-1 flex items-center gap-3">
+            <img className="w-8 text-center" src={logo} alt="" />
+
             <span className="font-bold text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
               HERO.IO
             </span>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
 
       <div className=" navbar-center hidden lg:flex ">
@@ -68,7 +69,7 @@ const Navbar = () => {
           onClick={() =>
             window.open("https://github.com/mahadi1951?tab=repositories")
           }
-          className=" btn flex bg-linear-to-r from-[#632EE3] to-[#9F62F2]   text-white "
+          className=" btn flex bg-linear-to-r from-[#632EE3] to-[#9F62F2]  text-white"
         >
           <svg
             aria-label="GitHub logo"

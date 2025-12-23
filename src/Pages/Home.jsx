@@ -11,7 +11,6 @@ import Loading from "./loading";
 import ErrorPage from "./ErrorPage";
 
 const Home = () => {
-  // const apps = useLoaderData();
   const { apps, loading, error } = useApps();
   if (loading) return <Loading />;
   if (error) return <ErrorPage />;
@@ -51,7 +50,11 @@ const Home = () => {
           </button>
         </div>
         <div>
-          <img className="lg:max-w-xl  h-80 block mx-auto  " src={hero} alt="" />
+          <img
+            className="lg:max-w-xl  h-80 block mx-auto  "
+            src={hero}
+            alt=""
+          />
         </div>
         <div className="text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-full py-6">
           <h1 className="py-3  text-2xl font-bold">
@@ -90,7 +93,7 @@ const Home = () => {
           Show All Apps
         </Link>
       </div>
-      <div className="grid grid-cols-1 px-2  md:grid-cols-2 md:pl-14 lg:grid-cols-4 gap-4 lg:pr-14">
+      <div className="grid grid-cols-1 px-2  md:grid-cols-2 md:pl-14 lg:grid-cols-4 gap-4 lg:pr-14 mx-auto">
         {featureApps.map((app) => (
           <AppsCard key={app} app={app}></AppsCard>
         ))}
