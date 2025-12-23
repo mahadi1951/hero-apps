@@ -30,15 +30,15 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="w-full bg-[#f5f5f5] py-3">
+    <div className="w-full bg-[#f5f5f5] py-1">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our All Applications</h1>
-        <p className="text-gray-500 py-3">
+        <p className="text-gray-500 py-2">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between lg:max-w-7xl mx-auto px-4 py-4">
-        <div className="text-center py-3">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between lg:max-w-7xl mx-auto px-4 py-2">
+        <div className="text-center py-1">
           <h1 className="text-xl font-semibold">
             ({searchedApps.length}) Apps Found
           </h1>
@@ -70,7 +70,7 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-1 px-2  md:grid-cols-2 md:pl-14 lg:grid-cols-4 gap-4 lg:pr-14  ">
+      <div className="max-w-[1440px] mx-auto px-6 lg:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
         {loading ? (
           <div className="col-span-full flex justify-center items-center min-h-80">
             <img className="w-40 h-40 animate-spin" src={logo} alt="loading" />

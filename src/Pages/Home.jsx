@@ -93,9 +93,11 @@ const Home = () => {
           Show All Apps
         </Link>
       </div>
-      <div className="grid grid-cols-1 px-2  md:grid-cols-2 md:pl-14 lg:grid-cols-4 gap-4 lg:pr-14 mx-auto">
+      <div className="max-w-[1440px] mx-auto px-6 lg:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
         {featureApps.map((app) => (
-          <AppsCard key={app} app={app}></AppsCard>
+          <div key={app.id} className="w-full max-w-[300px] lg:max-w-none">
+            <AppsCard app={app} />
+          </div>
         ))}
       </div>
       <div className="py-2 text-center ">

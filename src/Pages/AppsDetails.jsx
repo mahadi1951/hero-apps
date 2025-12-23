@@ -70,7 +70,7 @@ const AppsDetails = () => {
       <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto py-2 lg:py-6">
         <div className="shrink-0">
           <img
-            className="w-full md:w-80 h-80 rounded-3xl shadow"
+            className="w-full  md:w-80 h-80 rounded-3xl shadow"
             src={image}
             alt={title}
           />

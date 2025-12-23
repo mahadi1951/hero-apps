@@ -8,7 +8,7 @@ const AppsCard = ({ app }) => {
 
   return (
     <Link to={`/apps/${id}`}>
-      <div className="card bg-base-100 w-70 h-72 shadow-sm hover:scale-105 transition ease-in-out  py-3">
+      <div className="card bg-base-100 w-72 h-72 shadow-sm hover:scale-105 transition ease-in-out  py-3">
         <img
           className="w-52 h-44 text-center rounded-2xl mx-auto"
           src={image}

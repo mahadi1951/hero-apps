@@ -25,16 +25,13 @@ const BarChart = ({ ratings }) => {
         Ratings
       </h2>
 
-      {/* Bars */}
       <div className="space-y-3 sm:space-y-4 mb-2">
         {sortedByStar.map((r, id) => (
           <div key={id} className="flex items-center gap-2 sm:gap-4">
-            {/* Star label */}
             <span className="w-12 sm:w-16 text-xs sm:text-sm text-gray-500">
               {r.name}
             </span>
 
-            {/* Bar */}
             <div
               className="flex-1 bg-transparent h-5 sm:h-6 lg:h-8 relative"
               onMouseEnter={() => setHoveredIndex(id)}
@@ -47,7 +44,6 @@ const BarChart = ({ ratings }) => {
                 }}
               />
 
-              {/* Tooltip */}
               {hoveredIndex === id && (
                 <div className="absolute -top-7 sm:-top-8 right-0 bg-gray-800 text-white text-[10px] sm:text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
                   <p className="text-center font-semibold">{r.name}</p>
@@ -59,7 +55,6 @@ const BarChart = ({ ratings }) => {
         ))}
       </div>
 
-      {/* Bottom count scale */}
       <div className="flex items-center gap-2 sm:gap-4">
         <div className="w-12 sm:w-16"></div>
 
